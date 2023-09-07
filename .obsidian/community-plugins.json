@@ -1,5 +1,6 @@
 [
   "templater-obsidian",
   "table-editor-obsidian",
-  "quick-latex"
+  "quick-latex",
+  "obsidian-git"
 ]

@@ -15,3 +15,4 @@
 - Au S8 on aura quelques semaine full école pour les cours de SHES + du ISA devops
 - Les FISA n'auront pas le PS8
 - Le cours "IA Embarquée, Capteurs et Actionneurs" sera en anglais uniquement.
+- La semaine du 15 au 19 avril pour les FISA est une semaien d'anglais intensif avec l'Alliance Française à Nice en présentiel.

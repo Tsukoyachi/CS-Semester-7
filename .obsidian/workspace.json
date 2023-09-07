@@ -14,8 +14,21 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "6f4aaf0947ce3174",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rentrée.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Rentrée.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Rentrée.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +133,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Rentrée.md"
+              }
             }
           }
         ]
@@ -132,17 +149,18 @@
     "hiddenItems": {
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
-      "canvas:Créer une nouvelle toile": false,
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
+      "canvas:Créer une nouvelle toile": false,
       "zk-prefixer:Créer une nouvelle note unique": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ca56f88987e6e9bf",
+  "active": "6f4aaf0947ce3174",
   "lastOpenFiles": [
+    "Rentrée.md",
     "Readme.md",
     "cheatsheet/LaTeX.pdf",
     "cheatsheet/LaTeX - exemple simple.md",
@@ -172,7 +190,6 @@
     "Algorithmique/test.md",
     "Algorithmique/test.md",
     "NaN.md",
-    "Algorithmique/Test.md",
     "Middleware",
     "Anglais",
     "Conception Logicielle",

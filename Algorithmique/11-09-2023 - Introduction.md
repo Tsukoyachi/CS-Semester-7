@@ -70,3 +70,6 @@ Remarques:
 - On prouvera donc que le problème à une difficulté bornée (par exemple un temps linéaire ou une mémoire polynomial, etc.) en exhibant un algorithme et en prouvant ses performances.
 - Il est très difficile de prouver qu’un problème est réellement difficile. Mais on pourra prouver que tel problème est au moins aussi dur que tel autre (on parle de réduction).
 ```
+
+Le plus compliqué est de comprendre que certaines fonctions sont non calculable, cela sera prouvé par la vidéo ci dessous :
+https://www.youtube.com/watch?v=N_cDA6tF-40&feature=youtu.be

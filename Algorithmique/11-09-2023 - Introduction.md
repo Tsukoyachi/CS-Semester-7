@@ -7,3 +7,47 @@
 
 ---
 
+```ad-important
+title: Definition problèmes
+En informatique, un problème est une fonction f : A->B où A et B sont des ensembles dénombrable représentant des objets.
+
+Exemples d’objets: des booléens, des graphes, des entiers, des
+listes d’entiers, des fractions, etc.
+
+Attention : Les objets doivent avoir une représentation finie, on ne peut par
+exemple pas mettre en entrée ou en sortie de la fonction la liste de
+tous les d´ecimales de π car celle-ci est infinie. On verra (voir TD1)
+qu’on peut consid´erer que A, B ⊆ N
+```
+
+```ad-example
+title: Example de problème
+Exemples de problèmes informatique:
+- Etant donné un entier, est-il pair? (f : Z → {⊤, ⊥})
+- Le double d’un nombre n? (f : Z → Z)
+- Etant donné un entier naturel, est-il premier? (f : N → {⊤, ⊥})
+- Etant donnée une liste d’entiers, est-elle triée? (f : Z∗ → {⊤, ⊥})
+- Quel est le minimum d’une liste d’entiers? (f : Z∗ → Z)
+- Y a-t-il un chemin entre a $\in$ G et b $\in$ G dans un graphe G ?
+- Etant donné un programme écrit en python, ce programme-va-t’il se terminer ou faire une boucle infinie?
+```
+
+
+```ad-important
+title: Définition algorithme
+Un algorithme est une suite finie et non ambiguë d'instructions et d'opérations.
+
+Dans notre cas on suppose qu'un algorithme prend une entrée $a \in A$ (potentiellement inutilisée) et sort une sortie $b \in B$. 
+
+Tous les algorithmes (qui nous int´eressent) calculent donc une
+fonction et on dit donc que cette fonction est calculable. Mais, on
+verra que toutes les fonctions ne sont pas calculables par un
+algorithme... et on dit donc que ce sont des fonctions
+non-calculables.
+```
+
+```ad-info
+title: La calculabilité
+
+
+```

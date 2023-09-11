@@ -13,8 +13,13 @@ PDF du cours :
 
 ---
 
-Le but de ce cours est de comprendre la théorie derrière les attaques, voir comme cela se déroule dans la pratique. Pour à la fin comprendre la mentalité d'un attaquant afin de construire des applications plus sécurisées.
+### Les notes sont à lire en parallèle du slide étant donné qu'il ne s'agit que d'une prise de note.
 
+> [!intro]
+> Le but de ce cours est de comprendre la théorie derrière les attaques, voir comme cela se déroule dans la pratique. Pour à la fin comprendre la mentalité d'un attaquant afin de construire des applications plus sécurisées.
+> 
+
+```ad-summary
 Voici le sommaire pour ce cours
 -  Malware and Attacks: an Introduction
 - Software Exploits 1: Web Apps  
@@ -24,7 +29,9 @@ Voici le sommaire pour ce cours
 - Secure Programming 
 - Endpoint Detection and Response 
 - Basic Pen-testing / Security testing
+```
 
+```ad-info
 Ce cours possède une suite, il s'agit de la mineur cyber-sécurité en SI5 ainsi que d'autres cours :
 - Cryptographie et sécurité
 - Cyber-security
@@ -35,9 +42,8 @@ Ce cours possède une suite, il s'agit de la mineur cyber-sécurité en SI5 ains
 
 Le sécurité est tellement vaste qu'elle touche également d'autres domaines que le simple développement logiciel :
 - Le réseau
-	- Protection du périmètre (authentification et plus)
-	- 
 - Le système
 - Le matériel
 - Le logiciel
+```
 

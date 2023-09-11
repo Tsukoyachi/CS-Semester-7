@@ -73,3 +73,4 @@ Remarques:
 
 Le plus compliqué est de comprendre que certaines fonctions sont non calculable, cela sera prouvé par la vidéo ci dessous :
 https://www.youtube.com/watch?v=N_cDA6tF-40&feature=youtu.be
+

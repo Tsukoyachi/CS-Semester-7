@@ -124,7 +124,7 @@ On a supprimé la table Users, mais on peut un Insert, Un Delete, un Update, ré
 Méthode pour contrer les injections SQL :
 - Méthode non efficace :
 	- Blacklist
-- Méthode efficace :
+- Méthode partiellement efficace :
 	- Whitelist
 	- Prepared Queries
 
@@ -138,6 +138,36 @@ Problèmes :
 3. Métacaractères codés en Unicode.
 4. Avez-vous oublié des métacaractères ?
 
-Et puis même si c'est facile de re
+Et puis même si c'est facile de retirer certains caractères, ce n'est pas le cas de tous.
+
+Quelques exemple de cas qui ne seront probablement pas retiré avec le blacklist :
+- Different case
+	- SeLecT instead of SELECT or select
+- Bypass keyword removal filters
+	- SELSELECTECT
+- URL-encoding
+	- %53%45%4C%45%43%54
+- SQL comments
+	- SELECT/*foo*/num/*foo*/FROM/**/cc
+	- SEL/*foo*/ECT
+- String Building
+	- ‘us’||’er’
+	- chr(117)||chr(115)||chr(101)||chr(114)
+```
+
+```ad-info
+title: Whitelist
+Rejeter les données qui ne correspondent pas à votre liste de caractères sûrs à accepter.
+- Identifiez ce qui est bon, pas ce qui est mauvais.
+- Rejeter l'entrée au lieu d'essayer de la réparer.
+- Il faut toujours gérer les guillemets simples lorsque cela est nécessaire, comme dans les noms.
+lorsque c'est nécessaire, comme dans les noms.
+
+```
+
+```ad-todo
+title: Check Prepared Queries
+
+
 ```
 

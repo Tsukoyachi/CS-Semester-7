@@ -48,6 +48,25 @@ non-calculables.
 
 ```ad-info
 title: La calculabilité
+La question principale de la calculabilité est: étant donné un
+problème et donc une fonction f : A → B, est-ce que f est
+calculable?
 
+Remarques:
+- f est calculable veut dire qu’il existe un algorithme qui calcule
+- f : si on lance l’algorithme sur tout a ∈ A, on obtient f (a). En calculabilité, on ne se préoccupe pas du temps ni de l’espace m´emoire utilisé par l’algorithme pour résoudre le problème. Si f est calculable, alors on peut le prouver en exhibant un algorithme, peu importe ses performances.
+- On verra des notions moins forte que calculable: semi-d´ecidable, co-semi-décidable...
+```
 
+```ad-info
+title: La complexité
+La question principale de la complexité est: étant donné un
+problème p calculable et donc une fonction f : A → B, quelle est
+la difficulté de p, c’est-à-dire quelles sont les performances du
+meilleur algorithme qui peut calculer f ?
+
+Remarques:
+- On parle de performance en temps (nombre d'étapes de l’algorithme) et en espace mémoire utilisé par l’algorithme pour résoudre le problème en fonction de la taille de l’entrée.
+- On prouvera donc que le problème à une difficulté bornée (par exemple un temps linéaire ou une mémoire polynomial, etc.) en exhibant un algorithme et en prouvant ses performances.
+- Il est très difficile de prouver qu’un problème est réellement difficile. Mais on pourra prouver que tel problème est au moins aussi dur que tel autre (on parle de réduction).
 ```

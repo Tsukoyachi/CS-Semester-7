@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Software Security/11-09-2023 - Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Software Security/11-09-2023 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Software Security/11-09-2023 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rentrée.md"
+                "file": "Software Security/11-09-2023 - Introduction.md"
               }
             }
           }
@@ -149,8 +149,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6f4aaf0947ce3174",
+  "active": "a2edae22ffc25599",
   "lastOpenFiles": [
+    "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
+    "Software Security/ressource/01-WebAttacks-SQLI.pdf",
+    "Software Security/ressource/Image collée.png",
+    "Software Security/ressource/Pasted image 20230911080527.png",
+    "Software Security/11-09-2023 - Introduction.md",
+    "Software Security/ressource",
+    "Pasted image 20230911080422.png",
+    "Software Security/Sans titre",
     "Rentrée.md",
     "Readme.md",
     "cheatsheet/LaTeX.pdf",
@@ -179,14 +187,10 @@
     "Algorithmique/prefix - 2023-09-03.md",
     "test.md",
     "Algorithmique/test.md",
-    "Algorithmique/test.md",
-    "NaN.md",
     "Middleware",
     "Anglais",
     "Conception Logicielle",
     "Machine Learning",
-    "Algorithmique",
-    "Software Security",
-    "Templates"
+    "Algorithmique"
   ]
 }

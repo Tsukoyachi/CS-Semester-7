@@ -104,3 +104,40 @@ Une attaque par Injection SQL fait donc intervenir le placement d'une query SQL 
 ![[Pasted image 20230911085113.png]]
 ```
 
+```ad-example
+title: Example d'injection SQL
+![[Pasted image 20230911085316.png]]
+
+Et bien oui, imaginons que user = "' or 1=1 --" (URL encoded)
+Dans ce cas le script fera :
+![[Pasted image 20230911085409.png]]
+
+Malheureusement, il est facile de se connecter à de nombreux site de cette façon.
+
+Encore pire, imaginons que user = "'; DROP TABLE Users --"
+Dans ce cas ci...
+![[Pasted image 20230911085541.png]]
+
+On a supprimé la table Users, mais on peut un Insert, Un Delete, un Update, réinitiliaser un mot de passe, ...
+```
+
+Méthode pour contrer les injections SQL :
+- Méthode non efficace :
+	- Blacklist
+- Méthode efficace :
+	- Whitelist
+	- Prepared Queries
+
+```ad-info
+title: Backlist
+Idée : Filtrer ou assainir les mauvais méta-caractères SQL connus, tels que les guillemets simples.
+
+Problèmes :
+1. Les paramètres numériques n'utilisent pas de guillemets.
+2. Les métacaractères échappés de l'URL.
+3. Métacaractères codés en Unicode.
+4. Avez-vous oublié des métacaractères ?
+
+Et puis même si c'est facile de re
+```
+

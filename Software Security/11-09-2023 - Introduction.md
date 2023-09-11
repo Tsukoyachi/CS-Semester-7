@@ -166,8 +166,7 @@ lorsque c'est nécessaire, comme dans les noms.
 ```
 
 ```ad-todo
-title: Check Prepared Queries
-
-
+title: Prepared Queries
+Le principe c'est de précompiler une query sql en laissant des blancs uniquement pour les variables qui ne seront pas compilées à l'exécution. Empêchant donc les injections SQL.
 ```
 

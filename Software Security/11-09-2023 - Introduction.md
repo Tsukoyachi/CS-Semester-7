@@ -68,5 +68,39 @@ Many people still use passwords which are easy to guess: their first names, thei
 ```
 
 
-#### Slide 1 : Software exploits
+#### Slide 1 : Software exploits - Web App Security
+
+```ad-info
+title: OWASP Top 10 Application Security Risks - 2017
+• Injection
+• Broken Authentication and Session Management
+• Cross-Site Scripting (XSS)
+• Broken Access Control
+• Security Misconfiguration
+• Sensitive Data Exposure
+• Insufficient Attack Protection
+• Cross-Site Request Forgery (CSRF)
+• Using Components with Known Vulnerabilities
+• Underprotected APIs
+```
+
+Après la création de nombreuse formations, depuis 2009 le nombre de vulnérabilité dans les web applications a été grandement réduit.
+
+![[Pasted image 20230911084742.png]]
+
+Voici un bref aperçu d'une vue système d'une web app :
+![[Pasted image 20230911084445.png]]
+
+```ad-bug
+title: Injection SQL
+De la donnée utilisateurs va être récupérée depuis un formulaire.
+Souvent cette donnée utilisateur va directement être utilisée dans la construction d'une query SQL.
+
+Par exemple : 
+– SELECT productdata FROM table WHERE productname = ‘user input product name’;
+
+Une attaque par Injection SQL fait donc intervenir le placement d'une query SQL dans un formulaire utilisateur.
+
+![[Pasted image 20230911085113.png]]
+```
 

@@ -46,7 +46,39 @@ Lors de ce cours nous allons voir :
 
 ```ad-important
 title: Partitionnement ou clustering
+On par de données sans label et le but est de les regroupes en différentes classes
+![[Pasted image 20230912082623.png]]
 
+```
+
+```ad-important
+title: Régression
+Régression linéaire :
+![[Pasted image 20230912082729.png]]
+Régression non linéaire :
+![[Pasted image 20230912082830.png]]
+```
+
+```ad-important
+title: Classification
+Classification linéaire :
+![[Pasted image 20230912082924.png]]
+Classification non linéaire :
+![[Pasted image 20230912083103.png]]
+```
+
+Les TD étant cours, les dataset seront souvent déjà préparé mais dans la vrai vie il y aura également une partie préparation de la données.
+
+```ad-note
+title: Séparation des données
+On va séparer le dataset en 3 :
+- Données pour l'apprentissage (train) :
+	- Classification : Doit comporter des éléments de chaque classe
+- Données de validation :
+	- Afin de stopper l'apprentissage
+	- Afin de choisir des hyper-paramètres
+- Données de test (test) : 
+	- 
 
 ```
 

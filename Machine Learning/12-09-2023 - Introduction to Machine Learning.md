@@ -7,6 +7,8 @@
 
 ---
 
+## Introduction
+
 Les algorithmes d'apprentissages vont être classé en deux grand groupes :
 - **L'apprentissage non supervisé** (nécessite des **données** mais on a rien besoin de savoir dessus) : On va regrouper des données qui se ressemble
 - **L'apprentissage supervisé** (nécessite des **données** et des **labels**) :
@@ -44,6 +46,8 @@ Lors de ce cours nous allons voir :
 - Introduction à l'apprentissage profond
 ```
 
+## Rappels
+
 ```ad-important
 title: Partitionnement ou clustering
 On par de données sans label et le but est de les regroupes en différentes classes
@@ -78,8 +82,26 @@ On va séparer le dataset en 3 :
 	- Afin de stopper l'apprentissage
 	- Afin de choisir des hyper-paramètres
 - Données de test (test) : 
-	- 
+	- Pour évaluer les performances de l'algorithme
+	- Classification : Doit comporter des éléments de chaque classe dans les même proportions que pour l'apprentissage
+
+En général les proportions couramment utilisé sont (train/valid/test) : 60% 20% 20% ou 80% 0% 20%.
+```
+
+```ad-info
+- mse : Mean Square Error
+
+$E = \frac{1}{n}\sum_{i=0}^{n}(y_{pred}^{i}-y_{truth}^{i})²$
+
+- rmse : Root Mean Square Error (permet d'être dans une unité qui nous parle plus)
+
+$E = \sqrt(\frac{1}{n}\sum_{i=0}^{n}(y_{pred}^{i}-y_{truth}^{i})²)$
 
 ```
 
- 
+
+ ```ad-note
+title: Métrique pour la classification
+![[Pasted image 20230912084512.png]]![[Pasted image 20230912084525.png]]
+
+```

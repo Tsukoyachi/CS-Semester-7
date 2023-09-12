@@ -46,7 +46,7 @@ Lors de ce cours nous allons voir :
 - Introduction à l'apprentissage profond
 ```
 
-## Rappels
+## Rappels et quelques nouvelles notions
 
 ```ad-important
 title: Partitionnement ou clustering

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmique/11-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithmique/11-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithmique/11-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmique/11-09-2023 - Introduction.md"
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md"
               }
             }
           }
@@ -151,8 +151,9 @@
   },
   "active": "d8ea0f7739604305",
   "lastOpenFiles": [
-    "Software Security/11-09-2023 - Introduction.md",
     "Algorithmique/11-09-2023 - Introduction.md",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+    "Software Security/11-09-2023 - Introduction.md",
     "Software Security/ressource/Pasted image 20230911085541.png",
     "Software Security/ressource/Pasted image 20230911085409.png",
     "Software Security/ressource/Pasted image 20230911085316.png",
@@ -192,7 +193,6 @@
     "Algorithmique/2023-09-03 - blablabla.md",
     "Algorithmique/prefix - 2023-09-03.md",
     "test.md",
-    "Algorithmique/test.md",
     "Middleware",
     "Anglais",
     "Conception Logicielle",

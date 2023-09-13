@@ -44,7 +44,10 @@ Exemple de bilan :
 |          | Matériel de transport       | 119 000 € |              |             |          |
 |          | Matériel de bureau          | 76 800 €  |              |             |          |
 | Classe 3 | Stock de matières premières | 14 800 €  |              |             |          |
-| Classe 4 |                             |           |              |             | Classe 4 |
+|          | Stock de marchandise        | 74 142 €  |              |             |          |
+| Classe 4 | Clients                     |  283 101 €         | Fournisseurs |    96 928 €         | Classe 4 |
 | Classe 5 | Banque                      | 69 040 €  |              |             |          |
-|          | Caisse                      | 33 272 €          |              |             |          |
-|          | Total actif                 |           | Total passif |             |          |
+|          | Caisse                      | 33 272 €  |              |             |          |
+|          | Total actif                 |   1 316 470 €       | Total passif |      1 296 928 €       |          |
+
+La différence entre total actif e

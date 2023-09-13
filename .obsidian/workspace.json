@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b9a15764fe0c8f14",
+        "id": "2dd5d0f6dfe6425a",
         "type": "tabs",
         "children": [
           {
-            "id": "d8ea0f7739604305",
+            "id": "258690215879de30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Rentrée.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Rentrée.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Rentrée.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md"
+                "file": "Rentrée.md"
+              }
+            }
+          },
+          {
+            "id": "c43efc8be235a7a1",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -149,8 +159,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d8ea0f7739604305",
+  "active": "258690215879de30",
   "lastOpenFiles": [
+    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Templates/Gestion Comptable & financière Template.md",
+    "Sans titre.md",
+    "Templates/Algorithmique Template.md",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+    "Gestion Comptable & financière",
     "Machine Learning/ressource/Pasted image 20230912084525.png",
     "Machine Learning/ressource/Pasted image 20230912084524.png",
     "Machine Learning/ressource/Pasted image 20230912084512.png",
@@ -161,11 +177,9 @@
     "Machine Learning/ressource/Pasted image 20230912082623.png",
     "Machine Learning/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
-    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Software Security/11-09-2023 - Introduction.md",
     "Software Security/ressource/Pasted image 20230911085541.png",
     "Software Security/ressource/Pasted image 20230911085409.png",
-    "Software Security/ressource/Pasted image 20230911085316.png",
     "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Software Security/ressource",
@@ -175,7 +189,6 @@
     "cheatsheet/LaTeX.pdf",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md",
-    "Templates/Algorithmique Template.md",
     "cheatsheet",
     "Templates/Conception Logicielle Template.md",
     "Templates/Software Security Template.md",
@@ -192,10 +205,7 @@
     "Algorithmique/2023-09-03 - Introduction.md",
     "Algorithmique/2023-09-03 -.md",
     "Algorithmique/2023-09-03.md",
-    "Algorithmique/2023-09-03 - blablabla.md",
-    "Algorithmique/prefix - 2023-09-03.md",
     "Middleware",
-    "Anglais",
-    "Conception Logicielle"
+    "Anglais"
   ]
 }

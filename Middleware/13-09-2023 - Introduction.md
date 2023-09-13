@@ -23,7 +23,7 @@ La RMI a été  introduite il y a longtemps avec la jdk 1.1 et elle est intégr�
 
 La partie public de la RMI est dans les packages commençant par java.rmi.
 
-Mais RMI concrètement c'est du remote protocole control (RPC) en java avec une génération de code dynamique.
+Mais RMI concrètement c'est du remote protocole call (RPC) en java avec une génération de code dynamique.
 
 La remote method invocation possède le même concept de stubs and de skeletons que l'on a pour RPC.
 
@@ -31,5 +31,11 @@ RMI nécessite l'utilisation de l'API de sérialization de Java qui est utilisé
 
 ### Concepts de base
 
+Tout d'abord on aura une différence entre les méthodes locale et les méthodes accessible à distance. Cette distinction est faite au moment de la déclaration mais également à l'utilisation mais on en reparlera plus tard.
 
+Les objets aussi sont différencié de cette façon, un objet accessible à distance s'appelle un remote object.
+
+- **proxy** : C'est une personne avec assez d'autorité ou de pouvoir pour agir pour quelqu'un d'autre.
+- **stub** : Il représente une interface qui est vu comme le front end du remote proxy mechanism.
+- **skeleton** : Il écoute en permanence les requête 
 

@@ -138,13 +138,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "36bdd4c29d35e504",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,7 +167,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2edae22ffc25599",
+  "active": "36bdd4c29d35e504",
   "lastOpenFiles": [
     "Rentrée.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",

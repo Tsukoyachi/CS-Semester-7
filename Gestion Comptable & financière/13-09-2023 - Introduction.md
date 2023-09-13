@@ -7,5 +7,9 @@
 
 ---
 
- 
- 
+# Définitions 
+
+- Compte de résultat
+
+- Bilan
+- Amortissement

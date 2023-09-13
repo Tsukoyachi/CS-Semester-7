@@ -53,8 +53,20 @@ On va donc vouloir créer une interface spécifique qui étend `java.rmi.Remote`
 
 ```ad-bug
 title: RemoteException
-Toutes les méthodes remote doivent par défaut `throw `
-
+Toutes les méthodes remote doivent par défaut `throw java.rmi.RemoteException` parce qu'il peut y avoir un problème lié à l'intéraction entre les deux hôte.
 ```
 
+```ad-attention
+title: Interface Remote
+L'interface devra être connue du client afin qu'il sache comment utiliser les méthodes.
+```
 
+![[Pasted image 20230913141859.png]]
+
+Cette interface décrit les méthodes appelable à distance.
+
+![[Pasted image 20230913141944.png]]
+Quelques contraintes :
+- La classe de l'objet remote devra implémenter les méthodes de l'interface. 
+- La classe devra posséder un constructeur public
+- Il doit également hériter de java.rmi.server.UnicastRemoteObject

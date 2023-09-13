@@ -36,6 +36,25 @@ Tout d'abord on aura une différence entre les méthodes locale et les méthodes
 Les objets aussi sont différencié de cette façon, un objet accessible à distance s'appelle un remote object.
 
 - **proxy** : C'est une personne avec assez d'autorité ou de pouvoir pour agir pour quelqu'un d'autre.
-- **stub** : Il représente une interface qui est vu comme le front end du remote proxy mechanism.
-- **skeleton** : Il écoute en permanence les requête 
+- **stub** : Il se fait passer pour le vrai objet côté client afin d'en mimiquer le comportement du vrai objet. Il se 
+- **skeleton** : Il écoute en permanence les requêtes entrante afin de fournir le bon stub au client. Avant la jdk 1.2 il fallait soit même demander à générer un skeleton, sauf que l'on s'est rendu compte qu'il pouvait être générique. Il est donc automatiquement généré au besoin grace à la génération de bytecode dynamique.
+
+![[Pasted image 20230913140329.png]]
+
+Ici on peut observer que comme on l'a vu plus tôt, le client va avoir besoin du stub "obd", il va donc demander au registre RMI quel skeleton le contient.
+
+Le client demandera alors au bon skeleton le stub requis, qui le lui renverra s'il le possède.
+
+### Implémentation d'objet remote
+
+Les seuls méthode accessible à distance sont celle qui sont listé dans les interfaces remotes.
+
+On va donc vouloir créer une interface spécifique qui étend `java.rmi.Remote` pour ensuite lui ajouter les méthodes requises.
+
+```ad-bug
+title: RemoteException
+Toutes les méthodes remote doivent par défaut `throw `
+
+```
+
 

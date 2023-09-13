@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b2af1311e6775336",
+        "id": "70edf67b459a6b29",
         "type": "tabs",
         "children": [
           {
-            "id": "6bd8ff089aa5de59",
+            "id": "0a8606ae2badd846",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md"
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md"
               }
             }
           },
@@ -168,10 +168,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "36bdd4c29d35e504",
+  "active": "a2edae22ffc25599",
   "lastOpenFiles": [
-    "Rentrée.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Rentrée.md",
     "Templates/Gestion Comptable & financière Template.md",
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
@@ -186,7 +187,6 @@
     "Machine Learning/ressource/Pasted image 20230912082729.png",
     "Machine Learning/ressource/Pasted image 20230912082623.png",
     "Machine Learning/ressource",
-    "Algorithmique/11-09-2023 - Introduction.md",
     "Software Security/11-09-2023 - Introduction.md",
     "Software Security/ressource/Pasted image 20230911085541.png",
     "Software Security/ressource/Pasted image 20230911085409.png",

@@ -16,18 +16,21 @@ Les charges sont les finances de classe 6 en général, et les produit celles de
 
 - **Amortissement** : On répartit la valeur d'une immobilisation (bien durable) sur une période de temps (ex : 200€ / mois), à la fin de celle ci la valeur du bien est de 0€.
 
-| Charges 6                  |          |                        | Produits 7 |
-| -------------------------- | -------- | ---------------------- | ---------- |
-| Charges exploitation       |          | Produits exploitations |            |
-| Achat Matières premières   | 139 588€ | Vente de marchandises  | 695 257 €  |
-| Achat de marchandises      | 275 888€ | Produits exceptionnel  |            |
-| Locations                  | 7 800€   | Produits exceptionnels | 18 700€    | 
-| Prime d'assurance          | 98 600€  |                        |            |
-| Publicité                  | 12 800€  |                        |            |
-| Impôts et taxes            | 21 264€  |                        |            |
-| Rénumérations du personnel | 116 800€ |                        |            |
-| Charges financières        |          |                        |            |
-| Charges d'intérêt          | 21 675€  |                        |            |
-| Sous-Total                 |  694 415 €        | Sous-Total             | 713 957 €           |
-|                            |          |                        |            |
-| Total Général              |          | Total Général          |            |
+
+Exemple de C
+| Charges 6                  |           |                        | Produits 7 |
+| -------------------------- | --------- | ---------------------- | ---------- |
+| Charges exploitation       |           | Produits exploitations |            |
+| Achat Matières premières   | 139 588 € | Vente de marchandises  | 695 257 €  |
+| Locations                  | 7 800 €   | Produits exceptionnels | 18 700 €   |
+| Achat de marchandises      | 275 888 € | Produits exceptionnel  |            |
+| Prime d'assurance          | 98 600 €  |                        |            |
+| Publicité                  | 12 800 €  |                        |            |
+| Impôts et taxes            | 21 264 €  |                        |            |
+| Rénumérations du personnel | 116 800 € |                        |            |
+| Charges financières        |           |                        |            |
+| Charges d'intérêt          | 21 675 €  |                        |            |
+| Sous-Total                 | 694 415 € | Sous-Total             | 713 957 €  |
+| Bénéfices                  | 19 542 €  |                        |            |
+| Total Général              | 713 957 € | Total Général          | 713 957 €  |
+

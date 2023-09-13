@@ -16,6 +16,7 @@ Les charges sont les finances de classe 6 en général, et les produit celles de
 
 - **Amortissement** : On répartit la valeur d'une immobilisation (bien durable) sur une période de temps (ex : 200€ / mois), à la fin de celle ci la valeur du bien est de 0€.
 
+- **Dépôt de bilan** : Le dépôt de bilan correspond au moment où le passif exigible d'une entreprise est plus important que son actif disponible.
 
 Exemple de compte de résultat :
 
@@ -50,4 +51,5 @@ Exemple de bilan :
 |          | Caisse                      | 33 272 €  |              |             |          |
 |          | Total actif                 |   1 316 470 €       | Total passif |      1 296 928 €       |          |
 
-La différence entre total actif e
+La différence entre total actif et passif est censé être égale à la perte / bénéfice. C'est un excellent moyen de s'auto vérifier.
+

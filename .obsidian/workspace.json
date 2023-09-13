@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "c8abe6e99457d566",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "129a3299d36e3103",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

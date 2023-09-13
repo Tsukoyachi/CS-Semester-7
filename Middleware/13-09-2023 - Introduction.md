@@ -70,3 +70,22 @@ Quelques contraintes :
 - La classe de l'objet remote devra implémenter les méthodes de l'interface. 
 - La classe devra posséder un constructeur public
 - Il doit également hériter de java.rmi.server.UnicastRemoteObject
+
+```ad-info
+title: UnicastRemoteObject
+Etant donné qu'en Java l'héritage est simple, pour ne pas "griller" notre unique héritage sur notre objet remote on peut faire ceci :
+`MonInterfaceDistince od = UnicastRemoteObject(obj,port)`
+Chaque instance sera associé à un port TCP (point d'entrée de l'objet remote), le port voulu peut être spécifié si il est différent de 0.
+```
+
+### Client d'un objet distant
+
+Pour interagir avec un objet remote, il faut :
+- Connaître en avance la/les interface de l'objet RMI.
+- Le trouver, il faut obtenir un stub/proxy qui implémente l'interface et indique le socket d'entrée de l'hôte ainsi que le port où l'objet se trouve.
+- L'utiliser (utiliser les méthode offertes)
+
+RMI donne un service de nommage qui permet de trouver un objet à travers son nom => le registre RMI (RMI registry) (celui ci tourne sur la même machine que l'objet remote)
+- L'objet est enregistré en utilisant un nom connu par les clients potentiel.
+- Le client demandera alors une référence (un stub) de cet objet directement.
+

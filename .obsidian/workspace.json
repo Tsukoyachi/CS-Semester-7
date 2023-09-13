@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/13-09-2023 - Introduction.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 416.5,
     "collapsed": true
   },
   "right": {
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/13-09-2023 - Introduction.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/13-09-2023 - Introduction.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/13-09-2023 - Introduction.md"
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md"
               }
             }
           },
@@ -187,11 +187,14 @@
   },
   "active": "0a8606ae2badd846",
   "lastOpenFiles": [
+    "Middleware/ressource/Pasted image 20230913143825.png",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/ressource/Pasted image 20230913143318.png",
+    "Middleware/ressource/Pasted image 20230913143253.png",
     "Middleware/ressource/Pasted image 20230913141944.png",
     "Middleware/ressource/Pasted image 20230913141859.png",
     "Middleware/ressource/Pasted image 20230913140329.png",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
-    "Middleware/13-09-2023 - Introduction.md",
     "Middleware/ressource",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Machine Learning/13-09-2023 - Introdu.md",
@@ -207,9 +210,6 @@
     "Machine Learning/ressource/Pasted image 20230912084512.png",
     "Machine Learning/ressource/Pasted image 20230912083103.png",
     "Machine Learning/ressource/Pasted image 20230912082924.png",
-    "Machine Learning/ressource/Pasted image 20230912082830.png",
-    "Machine Learning/ressource/Pasted image 20230912082729.png",
-    "Machine Learning/ressource/Pasted image 20230912082623.png",
     "Machine Learning/ressource",
     "Software Security/11-09-2023 - Introduction.md",
     "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",

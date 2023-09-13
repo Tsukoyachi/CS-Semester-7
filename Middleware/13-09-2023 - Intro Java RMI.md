@@ -89,3 +89,14 @@ RMI donne un service de nommage qui permet de trouver un objet à travers son no
 - L'objet est enregistré en utilisant un nom connu par les clients potentiel.
 - Le client demandera alors une référence (un stub) de cet objet directement.
 
+![[Pasted image 20230913143318.png]]
+Voici un exemple d'utilisation d'un objet remote côté client.
+
+### Localiser un objet remote
+
+L'objet remote doit d'abord s'enregistrer dans le registre.
+- Un programme lancé sur la même machine hôte que l'objet remote : rmiregistry (commande exécutable dans le bin de n'importe quelle JDK)
+- On utilise le port 1099 par défaut, sinon on peut le modifier en donnant le numéro de port en paramètre 
+
+#Todo 
+![[Pasted image 20230913143825.png]]

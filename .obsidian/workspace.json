@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Middleware/13-09-2023 - Introduction.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c8abe6e99457d566",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "129a3299d36e3103",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
               }
             }
           }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Middleware/13-09-2023 - Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+                "file": "Middleware/13-09-2023 - Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md"
+                "file": "Middleware/13-09-2023 - Introduction.md"
               }
             }
           },
@@ -168,15 +185,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2edae22ffc25599",
+  "active": "0a8606ae2badd846",
   "lastOpenFiles": [
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
+    "Middleware/13-09-2023 - Introduction.md",
+    "Middleware/ressource",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+    "Machine Learning/13-09-2023 - Introdu.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Rentrée.md",
     "Templates/Gestion Comptable & financière Template.md",
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
-    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Gestion Comptable & financière",
     "Machine Learning/ressource/Pasted image 20230912084525.png",
     "Machine Learning/ressource/Pasted image 20230912084524.png",
@@ -210,11 +231,6 @@
     "Algorithmique/di-09-2023 -.md",
     "Algorithmique/3-09-2023 -.md",
     "Algorithmique/2023-09-03 test.md",
-    "Conception Logicielle/2023-09-03 -.md",
-    "Algorithmique/2023-09-03 - Introduction.md",
-    "Algorithmique/2023-09-03 -.md",
-    "Algorithmique/2023-09-03.md",
-    "Middleware",
-    "Anglais"
+    "Conception Logicielle/2023-09-03 -.md"
   ]
 }

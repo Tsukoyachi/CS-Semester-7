@@ -17,7 +17,8 @@ Les charges sont les finances de classe 6 en général, et les produit celles de
 - **Amortissement** : On répartit la valeur d'une immobilisation (bien durable) sur une période de temps (ex : 200€ / mois), à la fin de celle ci la valeur du bien est de 0€.
 
 
-Exemple de C
+Exemple de compte de résultat :
+
 | Charges 6                  |           |                        | Produits 7 |
 | -------------------------- | --------- | ---------------------- | ---------- |
 | Charges exploitation       |           | Produits exploitations |            |
@@ -34,3 +35,16 @@ Exemple de C
 | Bénéfices                  | 19 542 €  |                        |            |
 | Total Général              | 713 957 € | Total Général          | 713 957 €  |
 
+Exemple de bilan :
+
+|          | Actif                       | Montent   | Passif       | Paiement    |          |
+| -------- | --------------------------- | --------- | ------------ | ----------- | -------- |
+| Classe 2 | Bâtiments                   | 500 000 € | Capital      | 1 200 000 € | Classe 1 |
+|          | Installations techniques    | 146 315 € |              |             |          |
+|          | Matériel de transport       | 119 000 € |              |             |          |
+|          | Matériel de bureau          | 76 800 €  |              |             |          |
+| Classe 3 | Stock de matières premières | 14 800 €  |              |             |          |
+| Classe 4 |                             |           |              |             | Classe 4 |
+| Classe 5 | Banque                      | 69 040 €  |              |             |          |
+|          | Caisse                      | 33 272 €          |              |             |          |
+|          | Total actif                 |           | Total passif |             |          |

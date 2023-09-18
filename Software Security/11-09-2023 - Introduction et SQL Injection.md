@@ -170,3 +170,22 @@ title: Prepared Queries
 Le principe c'est de précompiler une query sql en laissant des blancs uniquement pour les variables qui ne seront pas compilées à l'exécution. Empêchant donc les injections SQL.
 ```
 
+
+D'ailleurs il existe des scanneurs de vulnérabilité aux injections SQL, c'est une liste non exhaustive bien évidemment :
+- sqlmap 
+- wapity
+- burp suite
+- mieliekoek.pl
+- wpoison
+- w3af
+- paros
+- sqlid
+
+Les flux d'informations pour les injections SQL peuvent être divisés en 3 grand groupes :
+- Inband : La donnée est récupéré par le même canal qui a été utilisé pour effectué pour effectuer l'injection SQL, on verra alors l'information sur la page web.
+- Out-of-band : La donnée est récupérée sur un canal différent (par exemple un email avec le résultat de la query)
+- Inferential : Il n'y a pas vraiment de transfert de donnée, mais le testeur pourra reconstruire l'information en envoyant certains type de requête en particulier et en observant le comportement qui survient dans la DB/sur le serveur.
+
+Pour effectuer une attaque par injection sql il y a plusieurs méthodes.
+
+On peut effectuer une recherch

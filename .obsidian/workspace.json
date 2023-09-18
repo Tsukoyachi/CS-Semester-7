@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md"
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md"
               }
             }
           },
@@ -170,9 +170,12 @@
   },
   "active": "0a8606ae2badd846",
   "lastOpenFiles": [
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+    "Software Security/ressource/01-WebAttacks-XSS.pdf",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/Pasted image 20230913143825.png",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/Pasted image 20230913143318.png",
     "Middleware/ressource/Pasted image 20230913143253.png",
     "Middleware/ressource/Pasted image 20230913141944.png",
@@ -192,9 +195,7 @@
     "Machine Learning/ressource/Pasted image 20230912084524.png",
     "Machine Learning/ressource/Pasted image 20230912084512.png",
     "Machine Learning/ressource/Pasted image 20230912083103.png",
-    "Machine Learning/ressource/Pasted image 20230912082924.png",
     "Machine Learning/ressource",
-    "Software Security/11-09-2023 - Introduction.md",
     "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Software Security/ressource",
@@ -203,7 +204,6 @@
     "cheatsheet/LaTeX.pdf",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md",
-    "cheatsheet",
     "Templates/Conception Logicielle Template.md",
     "Templates/Software Security Template.md",
     "Middleware/03-09-2023 -.md",
@@ -214,7 +214,6 @@
     "Algorithmique/03-09-2023 - test.md",
     "Algorithmique/di-09-2023 -.md",
     "Algorithmique/3-09-2023 -.md",
-    "Algorithmique/2023-09-03 test.md",
-    "Conception Logicielle/2023-09-03 -.md"
+    "Algorithmique/2023-09-03 test.md"
   ]
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md"
+                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md"
               }
             }
           },
@@ -170,6 +170,8 @@
   },
   "active": "0a8606ae2badd846",
   "lastOpenFiles": [
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "Software Security/ressource/Pasted image 20230918084748.png",
     "Software Security/ressource/Pasted image 20230918084741.png",
     "Software Security/ressource/Pasted image 20230918084448.png",
@@ -181,8 +183,6 @@
     "Software Security/ressource/Pasted image 20230918082050.png",
     "Software Security/ressource/Pasted image 20230918081543.png",
     "Software Security/ressource/Pasted image 20230918081527.png",
-    "Software Security/ressource/Pasted image 20230918081504.png",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/ressource/01-WebAttacks-XSS.pdf",
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",

@@ -10,3 +10,5 @@
 - Si on prends un langage décidable, sont complémentaire l'est également
 - Deux langages décidables ou semi décidables le reste si on fait l'union ou l'intersection des deux.
 - Un langage L est décidable ssi L est semi décidable et co semi décidable
+
+#Todo à rattraper

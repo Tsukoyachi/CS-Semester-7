@@ -105,3 +105,6 @@ title: Métrique pour la classification
 ![[Pasted image 20230912084512.png]]![[Pasted image 20230912084525.png]]
 
 ```
+
+
+- discrétisation des données : 

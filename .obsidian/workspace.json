@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmique/18-09-2023 - Calculabilité et complexité.md"
+                "file": "Machine Learning/12-09-2023 - Introduction to Machine Learning.md"
               }
             }
           },
@@ -170,8 +170,10 @@
   },
   "active": "0a8606ae2badd846",
   "lastOpenFiles": [
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Machine Learning/ressource/Pasted image 20230912082623.png",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/ressource/Pasted image 20230918084748.png",
     "Software Security/ressource/Pasted image 20230918084741.png",
     "Software Security/ressource/Pasted image 20230918084448.png",
@@ -187,7 +189,6 @@
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/ressource",
-    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Machine Learning/13-09-2023 - Introdu.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Algorithmique/11-09-2023 - Introduction.md",
@@ -214,7 +215,6 @@
     "Conception Logicielle/03-09-2023 -.md",
     "Algorithmique/03-09-2023 - test.md",
     "Algorithmique/di-09-2023 -.md",
-    "Algorithmique/3-09-2023 -.md",
-    "Algorithmique/2023-09-03 test.md"
+    "Algorithmique/3-09-2023 -.md"
   ]
 }

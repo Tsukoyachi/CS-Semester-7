@@ -188,4 +188,37 @@ Les flux d'informations pour les injections SQL peuvent être divisés en 3 gran
 
 Pour effectuer une attaque par injection sql il y a plusieurs méthodes.
 
-On peut effectuer une recherch
+- On peut effectuer une recherche par erreur, on va provoquer des erreurs pour voir si on voit une erreur :
+
+1. Envoyer un guillemet en entrée, s'il y a une erreur l'application est vulnérable
+2. Envoyer deux guillemets pour représenter littéralement ', si l'erreur disparaît alors l'application est vulnérable
+#Todo 
+
+![[Pasted image 20230918081253.png]]
+
+![[Pasted image 20230918081418.png]]
+
+![[Pasted image 20230918081448.png]]
+
+![[Pasted image 20230918081504.png]]
+
+![[Pasted image 20230918081527.png]]
+
+![[Pasted image 20230918081543.png]]
+
+- Pour effectuer une attaque par inférence (à l'aveugle)
+
+Qu'est ce qu'on fait si l'application n'affiche pas de donnée ?
+- Il y a l'utilisation d'une contre mesure typique.
+
+L'injection peut produire un comportement détectable :
+- Page web de succès ou d'échec
+- Temps de réponse long ou inexistant
+
+Quand on teste une vulnérabilité, 1=1 est toujours vrai.
+
+Pour n'importe quel autre requête injectée, si le même résultat est retournée, la requête est également vrai.
+
+![[Pasted image 20230918082050.png]]
+
+![[Pasted image 20230918082104.png]]

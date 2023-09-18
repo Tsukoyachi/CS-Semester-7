@@ -11,3 +11,6 @@
 
 ---
 
+Quel est l'idée derrière une attaque par cross site scripting ?
+
+![[Pasted image 20230918082849.png]]

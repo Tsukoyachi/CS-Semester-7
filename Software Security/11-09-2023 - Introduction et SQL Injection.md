@@ -222,3 +222,9 @@ Pour n'importe quel autre requête injectée, si le même résultat est retourn�
 ![[Pasted image 20230918082050.png]]
 
 ![[Pasted image 20230918082104.png]]
+
+Pour empêcher les injections SQL :
+- **Ne jamais faire les requêtes SQL soit même**
+- Utilisez des requêtes SQL paramétrée/préparée 
+- Utiisez les relations de mapping objet (ORM) framework
+	- Et du typage dans les appels de méthode

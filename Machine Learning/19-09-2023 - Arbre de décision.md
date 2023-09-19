@@ -61,3 +61,19 @@ Ici l'indice de GINI mesure donc l'impureté et non la pureté.
 ## Construire l'arbre
 #Todo ![[Pasted image 20230919084146.png]]
 
+![[Pasted image 20230919084347.png]]
+
+Ici on compare deux arbres construit à partir d'une table de vérité. 
+
+Le premier qui est pur à la fin est construit en commençant par découper par la valeur a puis par b à gauche et c à droite.
+
+Le second lui n'est pas pur, on a commencé par séparer selon b puis dans les deux sous arbre on sépare par a mais cette fois ci on a deux noeuds impurs (ils possède du 0 et du 1 ensemble).
+
+### L'élagage (ou pruning)
+
+#Todo J'ai pas compris ce qu'il fallait noter.
+
+## Conclusion
+
+#Todo ![[Pasted image 20230919085025.png]]
+

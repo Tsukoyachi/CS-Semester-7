@@ -34,7 +34,30 @@ Il faut éviter de construire des arbres trop profond pour éviter le surrentrai
 
 ```ad-question
 title: Mais alors, comment choisir une features et une valeur seuil ?
-#Todo rattra
+#Todo rattraper la slide
 ```
 
- 
+## L'impureté
+
+#Todo ![[Pasted image 20230919083232.png]]
+
+### L'index de GINI
+
+ L'index de GINI : $GINI(n) = \sum\limits_{class~c}p(c|n)(1-p(c|n))=1-\sum\limits_{class~c}p²(c|n)$ 
+ Ici $p(c|n)$ c'est la probabilité que l'on trouve la classe c dans le noeud n.
+- Exemple si un noeud contient {0,0,1,1,1,2,2,2,2,2}
+	- p(0) = 2/10 = 0.2
+	- p(1) = 3/10 = 0.3
+	- p(2) = 5/10 = 0.5
+	- GINI = 1 - 0.04 - 0.09 - 0.25 = 0.62
+- La valeur max de l'indice de GINI = 1 - $\frac{1}{nb~class}$ 
+- La valeur min de l'indice de GINI = 0
+
+Ici l'indice de GINI mesure donc l'impureté et non la pureté.
+
+### L'entropie ou la perte en logarithme
+#Todo ![[Pasted image 20230919084028.png]]
+
+## Construire l'arbre
+#Todo ![[Pasted image 20230919084146.png]]
+

@@ -100,3 +100,4 @@ L'objet remote doit d'abord s'enregistrer dans le registre.
 
 #Todo 
 ![[Pasted image 20230913143825.png]]
+

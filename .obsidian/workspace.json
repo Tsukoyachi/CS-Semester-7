@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b961a2751c3fe3c7",
+        "id": "6ff06885dbce4e2e",
         "type": "tabs",
         "children": [
           {
-            "id": "a39b2c9679ac46b8",
+            "id": "58974d84e3d9a631",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md"
+                "file": "Middleware/20-09-2023 - More in depth study of RMI.md"
               }
             }
           },
@@ -168,10 +168,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a39b2c9679ac46b8",
+  "active": "58974d84e3d9a631",
   "lastOpenFiles": [
-    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Machine Learning/ressource/Pasted image 20230919085025.png",
     "Machine Learning/ressource/Pasted image 20230919084347.png",
@@ -188,7 +191,6 @@
     "Software Security/ressource/Pasted image 20230918084741.png",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/ressource/01-WebAttacks-XSS.pdf",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/ressource",
     "Machine Learning/13-09-2023 - Introdu.md",
@@ -213,8 +215,6 @@
     "Templates/Middleware Template.md",
     "Templates/Machine Learning Template.md",
     "Machine Learning/03-09-2023 -.md",
-    "Conception Logicielle/03-09-2023 -.md",
-    "Algorithmique/03-09-2023 - test.md",
-    "Algorithmique/di-09-2023 -.md"
+    "Conception Logicielle/03-09-2023 -.md"
   ]
 }

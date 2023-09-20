@@ -37,9 +37,9 @@ Les objets aussi sont différencié de cette façon, un objet accessible à dist
 
 - **proxy** : C'est une personne avec assez d'autorité ou de pouvoir pour agir pour quelqu'un d'autre.
 - **stub** : Il se fait passer pour le vrai objet côté client afin d'en mimiquer le comportement du vrai objet. Il se 
-- **skeleton** : Il écoute en permanence les requêtes entrante afin de fournir le bon stub au client. Avant la jdk 1.2 il fallait soit même demander à générer un skeleton, sauf que l'on s'est rendu compte qu'il pouvait être générique. Il est donc automatiquement généré au besoin grace à la génération de bytecode dynamique.
+- **skeleton** : Il écoute en permanence les requêtes entrante afin de fournir le bon stub au client. Avant la jdk 1.2 il fallait soit même demander à générer un skeleton, sauf que l'on s'est rendu compte qu'il pouvait être générique. Il est donc automatiquement généré au besoin grace à la génération de byte code dynamique.
 
-![[Pasted image 20230913140329.png]]
+![[Pasted image 20230913140329.png | center]]
 
 Ici on peut observer que comme on l'a vu plus tôt, le client va avoir besoin du stub "obd", il va donc demander au registre RMI quel skeleton le contient.
 
@@ -61,20 +61,20 @@ title: Interface Remote
 L'interface devra être connue du client afin qu'il sache comment utiliser les méthodes.
 ```
 
-![[Pasted image 20230913141859.png]]
+![[Pasted image 20230913141859.png | center]]
 
 Cette interface décrit les méthodes appelable à distance.
 
-![[Pasted image 20230913141944.png]]
+![[Pasted image 20230913141944.png | center]]
 Quelques contraintes :
 - La classe de l'objet remote devra implémenter les méthodes de l'interface. 
 - La classe devra posséder un constructeur public
-- Il doit également hériter de java.rmi.server.UnicastRemoteObject
+- Il doit également hériter de `java.rmi.server.UnicastRemoteObject`
 
 ```ad-info
 title: UnicastRemoteObject
 Etant donné qu'en Java l'héritage est simple, pour ne pas "griller" notre unique héritage sur notre objet remote on peut faire ceci :
-`MonInterfaceDistince od = UnicastRemoteObject(obj,port)`
+`MonInterface od = UnicastRemoteObject(obj,port)`
 Chaque instance sera associé à un port TCP (point d'entrée de l'objet remote), le port voulu peut être spécifié si il est différent de 0.
 ```
 
@@ -89,7 +89,7 @@ RMI donne un service de nommage qui permet de trouver un objet à travers son no
 - L'objet est enregistré en utilisant un nom connu par les clients potentiel.
 - Le client demandera alors une référence (un stub) de cet objet directement.
 
-![[Pasted image 20230913143318.png]]
+![[Pasted image 20230913143318.png | center]]
 Voici un exemple d'utilisation d'un objet remote côté client.
 
 ### Localiser un objet remote
@@ -123,11 +123,7 @@ InterfaceRmi obj = (InterfaceRmi) r.lookup("alias")
 
 ```ad-attention
 title: Cast du résultat de lookup
-Par défaut, l'objet retourné par 
-
+Par défaut, l'objet retourné par la méthode lookup de notre objet Registry sera de type Remote et non InterfaceRmi, par conséquent il faut le cast pour ne pas avoir d'erreur à la compilation !
 ```
 
-
-#Todo 
-![[Pasted image 20230913143825.png]]
 

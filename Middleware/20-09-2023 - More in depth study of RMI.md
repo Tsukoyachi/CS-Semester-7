@@ -92,6 +92,7 @@ Pour qu'un attribut soit ignoré lors de la serialization on ajoute le mot clé 
 private transiant int iWontBeSerialized;
 ```
 
+La RMI utilise par défaut l'implémentation de Serializable
 #Todo ![[Pasted image 20230920142801.png]]
 
 # RMI et les threads

@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "50e1b86312d48ee6",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Middleware/ressource/AppRepRMI-ENG.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
+                "file": "Middleware/ressource/AppRepRMI-ENG.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/13-09-2023 - Intro Java RMI.md"
+                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
               }
             }
           },
@@ -168,13 +179,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58974d84e3d9a631",
+  "active": "50e1b86312d48ee6",
   "lastOpenFiles": [
     "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/Pasted image 20230920142919.png",
     "Middleware/ressource/Pasted image 20230920142801.png",
     "Middleware/ressource/Pasted image 20230920141628.png",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",

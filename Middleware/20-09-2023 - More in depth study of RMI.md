@@ -48,3 +48,4 @@ Par contre pour les objet c'est un peu plus compliqué de les copier...
 - En effet pour envoyer la valeur de l'objet à travers le réseau, il faut que celui-ci soit serializable.
 
 - Et passer un objet par référence est également requis et RMI le permet uniquement pour les objets remote. Parce que qu'est ce qu'une référence pour un objet distant ? Il s'agit de son **stub** ! La solution est don de copier le stubs de l'objet qui lui est serializable.
+

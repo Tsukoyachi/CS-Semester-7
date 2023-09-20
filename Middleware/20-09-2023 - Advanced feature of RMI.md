@@ -21,7 +21,5 @@ Pour cela on a plusieurs outils (synchronized, wait, notify, sémaphores et j'en
 
 Bien entendu ce type d'approche avec des threads posent plusieurs soucis notables :
 - Accès concurrent à une donnée, celle-ci peut être modifiée avant une lecture ou autre.
-- Live-lock : 
-
-#Todo ![[Pasted image 20230920142919.png]]
+- #Todo **à compléter avec le prochain cours**
  

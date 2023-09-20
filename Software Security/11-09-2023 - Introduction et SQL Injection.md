@@ -101,17 +101,30 @@ Par exemple :
 
 Une attaque par Injection SQL fait donc intervenir le placement d'une query SQL dans un formulaire utilisateur.
 
-![[Pasted image 20230911085113.png]]
+![[Pasted image 20230911085113.png | center]]
 ```
 
-```ad-example
-title: Example d'injection SQL
-![[Pasted image 20230911085316.png]]
 
-Et bien oui, imaginons que user = "' or 1=1 --" (URL encoded)
-Dans ce cas le script fera :
+> [!Example d'injection SQL]
+> ```php
+> set ok = execute("SELECT * FROM Users WHERE user = '" & form("user") & "' AND pwd =
+> '" & form("pwd") & "'");
+> if not ok.EOF
+> 	login success
+> else fail;
+> ```
+> Est-ce que ce code est exploitable ?
+> 
+> Et bien oui, imaginons que user = "' or 1=1 --" (URL encoded)
+> Dans ce cas le script fera :
+> ```php
+> ```
+> a
+```
+```
+
+
 ![[Pasted image 20230911085409.png]]
-
 Malheureusement, il est facile de se connecter à de nombreux site de cette façon.
 
 Encore pire, imaginons que user = "'; DROP TABLE Users --"
@@ -119,6 +132,10 @@ Dans ce cas ci...
 ![[Pasted image 20230911085541.png]]
 
 On a supprimé la table Users, mais on peut un Insert, Un Delete, un Update, réinitiliaser un mot de passe, ...
+
+
+
+
 ```
 
 Méthode pour contrer les injections SQL :

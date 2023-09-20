@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#Todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -85,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md"
+                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md"
               }
             }
           },
@@ -168,26 +170,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "58974d84e3d9a631",
+  "active": "fb794a3ae167e231",
   "lastOpenFiles": [
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
+    "Middleware/ressource/Pasted image 20230913143318.png",
     "Middleware/ressource/Pasted image 20230920142919.png",
     "Middleware/ressource/Pasted image 20230920142801.png",
     "Middleware/ressource/Pasted image 20230920141628.png",
+    "Middleware/ressource/Pasted image 20230913143825.png",
+    "Middleware/ressource/Pasted image 20230913143253.png",
+    "Middleware/ressource/Pasted image 20230913141944.png",
+    "Middleware/ressource/Pasted image 20230913141859.png",
+    "Middleware/ressource/Pasted image 20230913140329.png",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Machine Learning/ressource/Pasted image 20230919085025.png",
     "Machine Learning/ressource/Pasted image 20230919084347.png",
-    "Machine Learning/ressource/Pasted image 20230919084146.png",
-    "Machine Learning/ressource/Pasted image 20230919084028.png",
-    "Machine Learning/ressource/Pasted image 20230919083232.png",
-    "Machine Learning/ressource/Pasted image 20230919082551.png",
-    "Machine Learning/ressource/Pasted image 20230919082417.png",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
@@ -214,7 +217,6 @@
     "Templates/Software Security Template.md",
     "Middleware/03-09-2023 -.md",
     "Templates/Middleware Template.md",
-    "Templates/Machine Learning Template.md",
-    "Machine Learning/03-09-2023 -.md"
+    "Templates/Machine Learning Template.md"
   ]
 }

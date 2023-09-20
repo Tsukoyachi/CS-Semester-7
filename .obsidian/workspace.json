@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "50e1b86312d48ee6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md"
               }
             }
           },
@@ -179,11 +168,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "50e1b86312d48ee6",
+  "active": "58974d84e3d9a631",
   "lastOpenFiles": [
     "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/ressource/Pasted image 20230920142919.png",
     "Middleware/ressource/Pasted image 20230920142801.png",
     "Middleware/ressource/Pasted image 20230920141628.png",

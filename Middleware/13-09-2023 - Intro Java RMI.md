@@ -96,7 +96,37 @@ Voici un exemple d'utilisation d'un objet remote côté client.
 
 L'objet remote doit d'abord s'enregistrer dans le registre.
 - Un programme lancé sur la même machine hôte que l'objet remote : rmiregistry (commande exécutable dans le bin de n'importe quelle JDK)
-- On utilise le port 1099 par défaut, sinon on peut le modifier en donnant le numéro de port en paramètre 
+- On utilise le port 1099 par défaut, sinon on peut le modifier en donnant le numéro de port en paramètre
+
+Le registre lui peut être utilisé de deux façons depuis le code Java :
+- La première c'est de le lancer depuis le code : 
+  ```Java
+  Registry r = LocateRegistry.createRegistry(numPort)
+```
+- La seconde est d'en rejoindre un existant qui a pu être lancé en ligne de commande ou via un autre code Java :
+  ```Java
+  Registry r = LocateRegistry.getRegistry(numPort)
+```
+
+Une fois le registre lancé ou rejoins on peut y ajouter un objet RMI visible par les autres utilisateurs via un code de ce type là :
+```Java
+Registry r = LocateRegistry.createRegistry(1099)
+InterfaceRmi obj = new InterfaceRmiImplem(...)
+r.rebind("alias", obj) 
+```
+
+Il sera alors récupérable côté client avec ce code :
+```Java
+Registry r = LocateRegistry.getRegistry(1099)
+InterfaceRmi obj = (InterfaceRmi) r.lookup("alias")
+```
+
+```ad-attention
+title: Cast du résultat de lookup
+Par défaut, l'objet retourné par 
+
+```
+
 
 #Todo 
 ![[Pasted image 20230913143825.png]]

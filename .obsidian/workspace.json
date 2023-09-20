@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/20-09-2023 - More in depth study of RMI.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/20-09-2023 - More in depth study of RMI.md"
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md"
               }
             }
           },
@@ -170,11 +170,11 @@
   },
   "active": "58974d84e3d9a631",
   "lastOpenFiles": [
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/ressource/Pasted image 20230920142919.png",
     "Middleware/ressource/Pasted image 20230920142801.png",
     "Middleware/ressource/Pasted image 20230920141628.png",
     "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
@@ -187,7 +187,6 @@
     "Machine Learning/ressource/Pasted image 20230919082551.png",
     "Machine Learning/ressource/Pasted image 20230919082417.png",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
-    "Machine Learning/ressource/Pasted image 20230912082623.png",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",

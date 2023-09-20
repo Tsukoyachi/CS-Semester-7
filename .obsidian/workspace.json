@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Comptable & financière/13-09-2023 - Introduction.md"
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md"
               }
             }
           },
@@ -170,7 +170,8 @@
   },
   "active": "a39b2c9679ac46b8",
   "lastOpenFiles": [
-    "Gestion Comptable & financière/20-09-2023 - Bilan financiers.md",
+    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Machine Learning/ressource/Pasted image 20230919085025.png",
     "Machine Learning/ressource/Pasted image 20230919084347.png",
@@ -191,7 +192,6 @@
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/ressource",
     "Machine Learning/13-09-2023 - Introdu.md",
-    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Rentrée.md",
     "Templates/Gestion Comptable & financière Template.md",

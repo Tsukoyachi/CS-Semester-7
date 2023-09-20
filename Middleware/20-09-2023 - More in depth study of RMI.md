@@ -10,6 +10,8 @@
   ![[AppRepRMI-ENG.pdf]]
  ---
 
+# RMI et le passage de paramètre
+
 Pour le RMI, le but est de cacher la distribution.
 Mais pour RMI on voudrait donc manipuler les paramètre de la même façon que pour Java... c'est à dire que le passage de paramètre soit fait par copie de valeur pour les types primitifs et par référence pour les objets.
 
@@ -81,4 +83,17 @@ Le comportement classique :
 
 ## Implémentation de la serialization
 
-Par défaut un objet Java n'est p
+Par défaut un objet Java n'est pas serializable, il faut implémenter une interface qui se nomme `java.io.Serializable`.
+
+S'il n'arrive pas à se serializer il lancera une exception : `NotSerializableException`.
+
+Pour qu'un attribut soit ignoré lors de la serialization on ajoute le mot clé `transiant`.
+```Java
+private transiant int iWontBeSerialized;
+```
+
+#Todo ![[Pasted image 20230920142801.png]]
+
+# RMI et les threads
+
+#Todo ![[Pasted image 20230920142919.png]]

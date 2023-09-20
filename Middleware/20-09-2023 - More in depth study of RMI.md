@@ -92,7 +92,16 @@ Pour qu'un attribut soit ignoré lors de la serialization on ajoute le mot clé 
 private transiant int iWontBeSerialized;
 ```
 
-La RMI utilise par défaut l'implémentation de Serializable
+La RMI utilise par défaut l'implémentation de Serializable pour effectuer la copie des objet lorsque l'objet est Serializable. Mais le développeur peut également l'utiliser via deux méthodes simples :
+```Java
+  private void writeObject(ObjectOutputStream output) throws IOException
+  private void readObject(ObjectInputStream input) throws ClassNotFoundException,IOException
+```
+
+Bien entendu il est possible d'override ses deux méthodes pour en changer le comportement. 
+Il est possible d'en changer le comportement de la façon de notre choix, mais ses deux méthodes par défaut utilise les streams et sont en FIFO (first in first out), il faut donc que la lecture et l'écriture se face dans le même sens.
+Et bien entendu la lecture et l'écriture sont symétrique, il faut donc lire tout ce que l'on écrit.
+
 #Todo ![[Pasted image 20230920142801.png]]
 
 # RMI et les threads

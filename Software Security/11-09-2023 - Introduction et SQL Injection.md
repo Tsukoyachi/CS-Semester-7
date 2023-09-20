@@ -105,7 +105,7 @@ Une attaque par Injection SQL fait donc intervenir le placement d'une query SQL 
 ```
 
 
-> [!Example d'injection SQL]
+> [!example] Example d'injection SQL
 > ```php
 > set ok = execute("SELECT * FROM Users WHERE user = '" & form("user") & "' AND pwd =
 > '" & form("pwd") & "'");
@@ -115,28 +115,19 @@ Une attaque par Injection SQL fait donc intervenir le placement d'une query SQL 
 > ```
 > Est-ce que ce code est exploitable ?
 > 
-> Et bien oui, imaginons que user = "' or 1=1 --" (URL encoded)
+> Et bien oui, imaginons que `user = "' or 1=1 -- "` (URL encoded)
 > Dans ce cas le script fera :
 > ```php
+> ok = execute("SELECT * FROM Users WHERE user = ' ' or 1=1 -- ...")
 > ```
-> a
-```
-```
-
-
-![[Pasted image 20230911085409.png]]
-Malheureusement, il est facile de se connecter à de nombreux site de cette façon.
-
-Encore pire, imaginons que user = "'; DROP TABLE Users --"
-Dans ce cas ci...
-![[Pasted image 20230911085541.png]]
-
-On a supprimé la table Users, mais on peut un Insert, Un Delete, un Update, réinitiliaser un mot de passe, ...
-
-
-
-
-```
+> Le "--" dit que l'on ignore le reste de la ligne lors de la compilation. Bien évidemment ici quelque chose ou vrai vaut toujours vrai donc la connexion réussira dans le script précédent.
+> 
+> Malheureusement, il est facile de se connecter à de nombreux site de cette façon.
+> Et ce n'est pas le pire, imaginons que `user ="'; DROP TABLES Users -- "`.
+> 
+> On a supprimé la table Users, mais on peut un Insert, Un Delete, un Update, réinitialiser un mot de passe, ...
+> 
+> ![[Pasted image 20230920220842.png | center]]
 
 Méthode pour contrer les injections SQL :
 - Méthode non efficace :

@@ -176,10 +176,16 @@ D'ailleurs il existe des scanneurs de vulnérabilité aux injections SQL, c'est 
 - paros
 - sqlid
 
-Les flux d'informations pour les injections SQL peuvent être divisés en 3 grand groupes :
+```ad-info
+title: L'un des objectif de l'injection SQL
+Le but pour l'attaquant est de récupérer des données sensible via un flux d'informations pour SQL.
+
+Ses flux peuvent être divisés en 3 grand groupes :
 - Inband : La donnée est récupéré par le même canal qui a été utilisé pour effectué pour effectuer l'injection SQL, on verra alors l'information sur la page web.
 - Out-of-band : La donnée est récupérée sur un canal différent (par exemple un email avec le résultat de la query)
 - Inferential : Il n'y a pas vraiment de transfert de donnée, mais le testeur pourra reconstruire l'information en envoyant certains type de requête en particulier et en observant le comportement qui survient dans la DB/sur le serveur.
+
+```
 
 Pour effectuer une attaque par injection sql il y a plusieurs méthodes.
 
@@ -193,15 +199,12 @@ Pour effectuer une attaque par injection sql il y a plusieurs méthodes.
 	3. MySQL : ' 'FOO
 	4. ...
 
-![[Pasted image 20230918081418.png]]
+![[Pasted image 20230918081418.png | center]]
+![[Pasted image 20230918081448.png | center]]
+![[Pasted image 20230918081504.png | center]]
 
-![[Pasted image 20230918081448.png]]
-
-![[Pasted image 20230918081504.png]]
-
-![[Pasted image 20230918081527.png]]
-
-![[Pasted image 20230918081543.png]]
+![[Pasted image 20230918081527.png | center]]
+![[Pasted image 20230918081543.png | center]]
 
 - Pour effectuer une attaque par inférence (à l'aveugle)
 
@@ -216,12 +219,11 @@ Quand on teste une vulnérabilité, 1=1 est toujours vrai.
 
 Pour n'importe quel autre requête injectée, si le même résultat est retournée, la requête est également vrai.
 
-![[Pasted image 20230918082050.png]]
-
-![[Pasted image 20230918082104.png]]
+![[Pasted image 20230918082050.png | center]]
+![[Pasted image 20230918082104.png | center]]
 
 Pour empêcher les injections SQL :
 - **Ne jamais faire les requêtes SQL soit même**
 - Utilisez des requêtes SQL paramétrée/préparée 
-- Utiisez les relations de mapping objet (ORM) framework
+- Utilisez les relations de mapping objet (ORM) framework
 	- Et du typage dans les appels de méthode

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -87,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/11-09-2023 - Introduction et SQL Injection.md"
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md"
               }
             }
           },
@@ -172,17 +172,22 @@
   },
   "active": "58974d84e3d9a631",
   "lastOpenFiles": [
-    "Software Security/ressource/Pasted image 20230920221041.png",
-    "Software Security/ressource/Pasted image 20230920220842.png",
-    "Middleware/ressource/Pasted image 20230913143318.png",
-    "Middleware/ressource/Pasted image 20230920142919.png",
-    "Middleware/ressource/Pasted image 20230920142801.png",
-    "Middleware/ressource/Pasted image 20230920141628.png",
-    "Middleware/ressource/Pasted image 20230913143825.png",
-    "Middleware/ressource/Pasted image 20230913143253.png",
-    "Middleware/ressource/Pasted image 20230913141944.png",
-    "Middleware/ressource/Pasted image 20230913141859.png",
-    "Middleware/ressource/Pasted image 20230913140329.png",
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Software Security/ressource/Pasted image 20230918082849.png",
+    "Software Security/ressource/Pasted image 20230918082104.png",
+    "Software Security/ressource/Pasted image 20230918082050.png",
+    "Software Security/ressource/Pasted image 20230918081543.png",
+    "Software Security/ressource/Pasted image 20230918081527.png",
+    "Software Security/ressource/Pasted image 20230918081504.png",
+    "Software Security/ressource/Pasted image 20230918081448.png",
+    "Software Security/ressource/Pasted image 20230918081418.png",
+    "Software Security/ressource/Pasted image 20230911084742.png",
+    "Software Security/ressource/Pasted image 20230918081253.png",
+    "Software Security/ressource/01-WebAttacks-XSS.pdf",
+    "Software Security/ressource/01-WebAttacks-SQLI.pdf",
+    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
@@ -190,12 +195,7 @@
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
-    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
-    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Software Security/ressource/01-WebAttacks-XSS.pdf",
     "Middleware/ressource",
     "Machine Learning/13-09-2023 - Introdu.md",
     "Algorithmique/11-09-2023 - Introduction.md",
@@ -206,7 +206,6 @@
     "Gestion Comptable & financière",
     "Machine Learning/ressource",
     "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
-    "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Software Security/ressource",
     "Software Security/Sans titre",
     "Readme.md",

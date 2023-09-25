@@ -41,3 +41,33 @@ Pour filtrer/encoder, le mieux serait :
 	  (un exemple : `\<IMG """>\<SCRIPT>alert("XSS")...`)
 
 Ensuite les scripts ne sont pas toujours dans des balises scripts, en effet ils peuvent se cacher dans une URI : `<img src="javascript:alert(document.cookie);">`
+Bien entendu l'uri peut être utilisé dans beaucoup de balise html.
+
+Quelques outils anti-XSS :
+- Dynamic Data Tainting :
+	- Perl taint mode
+- Static Analysis :
+	- Analyser le Java, le PHP pour déterminer le possible passage d'input non voulue.
+
+## La défense côté client
+
+Proxy : Analyser le trafic HTTP échangé entre le navigateur de l'utilisateur et serveur web cible en scannant les caractères spéciaux HTML et en les encodant avant l'exécution de la page sur le navigateur client.
+
+Pare feu niveau applicatif : Analyse de l'HTML parcouru pour trouver des hyperliens qui pourrait faire fuiter des informations sensibles et empêcher l'envoie de telles informations en utilisant un ensemble de règles de connexion.
+
+![[Pasted image 20230925081347.png | center]]
+
+CSP = Content Security Policy
+
+Il s'agit d'un standard pour les navigateurs pour empêcher le XSS et la plupart des injections SQL : Whitelist des hôte qui sont sûrs.
+
+Ensemble de politiques mises en place par le navigateur au travers du header http `Security-Policy`.
+
+Alternativement, on a la balise `<meta http-equiv="Content-Security-Policy" ...>`
+
+Exemple 1 :
+
+On restreint les scripts de téléchargement pour l'origine courante et `ajax.googleapis.com` :
+
+```HTTP
+```

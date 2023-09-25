@@ -173,5 +173,13 @@ XmlHttpRequest (Ajax)
 
 ## Défense basique contre le CSRF : les secrets token
 
-Authentification persistante validée à chaque requête HTTP, dur à deviner (évidemment)
+Authentification persistante validée à chaque requête HTTP, dur à deviner (évidemment), envoyé au travers d'un champs caché, on évide le cookie pour éviter le vol !!
+```HTML
+<input type=hidden value=23a3af01b>
+```
+
+Variations :
+- identifiant de session
+- token indépendant de la session
+- #Todo à rattraper
 

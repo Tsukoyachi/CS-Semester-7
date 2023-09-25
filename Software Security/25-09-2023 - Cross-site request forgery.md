@@ -125,7 +125,53 @@ L'application devrait invalidé les cookies inutiles et ne pas se reposer sur le
 ## CSRF
 
 ![[Pasted image 20230925085608.png | center]]
-Ici on peut observer le chargement d'une page web et les différentes 
+Ici on peut observer le chargement d'une page web et les différentes étapes de son chargement.
+
 ![[Pasted image 20230925085637.png | center]]
 Ici on peut voir plusieurs requêtes pour effectuer une transaction.
+
+Comment fonctionne les attaques CSRF ?
+
+Détourne des fonctionnalités de base du navigateur et certains aspects d'HTTP.
+- Contrôle SOP (same origin policy) et cookie
+
+Privilégie les attaques par escalade.
+On pousse le navigateur à croire que la balise/le formulaire/la requête vient de la même origine que la destination.
+
+L'attaquant effectue des attaques à l'aveugle car il ne peut pas voir les réponses du serveur (sauf s'il combine ça a du XSS).
+
+Les balises :
+```HTML
+<img src="https://bank.com/fn?param=1">
+<iframe src="https://bank.com/fn?param=1">
+<script src="https://bank.com/fn?param=1">
+```
+
+Les formulaires qui s'envoie automatiquement :
+```HTML
+<body onload="document.forms[0].submit()"> 
+<form method="POST" action=“https://bank.com/fn”> 
+	<input type="hidden" name="sp" value="8109"/> 
+</form>
+```
+
+Les requêtes GET sont les plus dangereuses, mais toutes les requêtes sont vulnérables (même les requêtes POST).
+
+XmlHttpRequest (Ajax)
+- Normalement soumise à la SOP mais malheureusement mal gérée par la CORS (Cross-Origin Resource Sharing) qui peut mener à une libération des contraintes SOP...
+- Peut également être déjoué via un proxy.
+
+## Vue plus large du CSRF
+
+![[Pasted image 20230925090546.png | center]]
+
+![[Pasted image 20230925090608.png | center]]
+
+![[Pasted image 20230925090651.png | center]]
+
+![[Pasted image 20230925090704.png]]
+
+## Défense basique contre le CSRF : les secrets token
+
+Authentification persistante validée à chaque requête HTTP, dur à deviner (évidemment)
 

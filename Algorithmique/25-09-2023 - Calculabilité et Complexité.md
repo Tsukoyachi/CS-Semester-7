@@ -11,7 +11,7 @@
  ---
 ## Réduction
 
-Nommant $L_d$ que l'on définit comme "L'ensemble des codes des machines de Turing, telle que la machine de Turing n'accepte pas son propre code" ou :
+Nommons $L_d$ que l'on définit comme "L'ensemble des codes des machines de Turing, telle que la machine de Turing n'accepte pas son propre code" ou :
 
 $L_{d}=\{<M>~|~M~n'accepte~pas~le~mot~<M>\}$
 
@@ -37,3 +37,18 @@ Donc quand on évalue $M_d$ avec sont propre code:
 
 Dans les deux cas on a une contradiction donc le langage n'est pas décidable.
 ```
+
+```ad-info
+title: Informations supplémentaire
+En plus de savoir que $L_d$ n'est pas décidable, on sait que $L_d$ n'est également pas semi-décidable car lors de la démonstration précédente on a pas utilisé de propriété lié au fait que l'on supposait $L_d$ décidable, donc on aurait pu supposer $L_d$ semi décidable et arriver au même résultat.
+
+Par ailleurs en observant le langage on observe que son complémentaire serait un langage qui reconnait toutes les machines qui accepte leur propre code et cela est semi-décidable, donc $L_d$ est co-semi-décidable.
+```
+
+### Réduction Turing
+
+Une **réduction (many-one) Turing** du langage A au langage B est une fonction calculable
+$f: \sum\limits_{A}^{*}->\sum\limits_{B}^{*}$  telle que $w\in A$ <=> $f(w) \in B$. On note $A\leq_{m}^{T}B$.
+
+- Intuitivement, un problème A se réduit à un problème B si connaissant un algorithme pour décider/calculer B, on peut obtenir un algorithme pour décider/calculer A.
+- A est alors plus facile (ou aussi facile) que B !

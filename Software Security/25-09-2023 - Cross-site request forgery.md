@@ -67,6 +67,20 @@ Certaines informations persiste plus longtemps que d'autres :
 ![[Pasted image 20230925083854.png | center]]
 ```
 
+```ad-attention
+title: "Same Origin" Policy (SOP)
+Lorsque l'on ouvre deux onglets d'une même page, ces deux pages vont partager le même cookie, pour rester connecté par exemple.
+
+En réalité, chaque navigateur est associé à un domaine (constitué d'un serveur, d'un protocol et d'un port sur lequel le contenu a été téléchargé).
+Si une fenêtre utilise explicitement du code externe, ce code sera exécuté sur le domaine de cette fenêtre même s'il vient d'un autre hôte.
+
+Un script ne peut accéder qu'aux données associés à la même origine (y compris les cookies).
+- Celà permet d'empêcher qu'un script hostile vienne récupérer les données d'autres pages dans le navigateur.
+
+Il y a eu quelques problèmes de sécurité, spéciallement dans la fin des années 90 et le début des années 2000.
+```
+
+
 ```ad-info
 title: Sessions
 Généralement gérée par un framework web.
@@ -96,5 +110,22 @@ Opération (exemple : google)
 - Une requête va nous rediriger vers :
   `https://www.google.fr/url?`**&sa=**`U&`**ei=**`U -9wU-27O8Gm0AWc2IGAAQ&usg=AFQjCNEItv3EUaJHvFL_fM- _7lmX9VzCLQ`**&sig2=**`Wdr5pg0cOye893nHZJO-hw`**&bvm=**`bv.66330100,d.bGQ`
 
-Pros/
+Pros/Cons : Ne peuvent pas être supprimé par le client.
 ```
+
+## La guerre du Big Data...
+
+![[Pasted image 20230925084856.png | center]]
+
+La durée de vie d'un cookie est un gros problème pour la vie privée !
+- Attributs Expires/Max-Age
+
+L'application devrait invalidé les cookies inutiles et ne pas se reposer sur le navigateur pour le faire.
+
+## CSRF
+
+![[Pasted image 20230925085608.png | center]]
+Ici on peut observer le chargement d'une page web et les différentes 
+![[Pasted image 20230925085637.png | center]]
+Ici on peut voir plusieurs requêtes pour effectuer une transaction.
+

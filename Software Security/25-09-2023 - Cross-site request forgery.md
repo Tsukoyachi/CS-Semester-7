@@ -56,12 +56,45 @@ On peut l'ajouter dans le header http
 - Origine et date d'expiration
 ![[Pasted image 20230925083639.png | center]]
 
-Opération :
 Quand le navigateur se connecte à une URL, il regarde en premier s'il y a des cookies important. S'il en treouve un, il enverra l'information du cookie au serveur avec une requête HTTP.
 
-Une page web peut contenir
+Une page web peut contenir du contenu de plusieurs site web, donc plusieurs cookies peuvent être envoyé pendant le parcours de la page.
+
+Certaines informations persiste plus longtemps que d'autres :
+- Temporaire : identification de session (nombre aléatoire)
+- Durable : Identification de l'utilisateur (user ID, peut être sécurisé, intégrité et confidentialité)
+
+![[Pasted image 20230925083854.png | center]]
 ```
 
+```ad-info
+title: Sessions
+Généralement gérée par un framework web.
 
+Aide à distinguer entre plusieurs sessions simultanées.
+Stockage de donnée :
+- La session stocke des données provenant des transaction en cours (workflow, panier, login)
+- Les informations peuvent être supprimé d'une session
 
+Opérations :
+- Start session
+- L'id de session est créé dans le navigateur (cookie au début, écriture url plus tard)
+- La donnée est stockée et gérée par le serveur web (coûteux, ne se scale pas bien)
+- end session (suppression des données)
 
+Pros/Cons : la donnée est gérée par le serveur.
+```
+
+```ad-info
+title: écriture d'URL
+L'url est modifiée pour :
+- Stocker des paramètres (approche RESTful) 
+  `http://host:port/shopping.html?sessionid=value`
+- Forcer l'utilisation d'un proxy, la destination devient un paramètre.
+
+Opération (exemple : google)
+- Une requête va nous rediriger vers :
+  `https://www.google.fr/url?`**&sa=**`U&`**ei=**`U -9wU-27O8Gm0AWc2IGAAQ&usg=AFQjCNEItv3EUaJHvFL_fM- _7lmX9VzCLQ`**&sig2=**`Wdr5pg0cOye893nHZJO-hw`**&bvm=**`bv.66330100,d.bGQ`
+
+Pros/
+```

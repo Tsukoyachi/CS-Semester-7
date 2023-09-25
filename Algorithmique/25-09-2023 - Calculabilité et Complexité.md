@@ -56,5 +56,9 @@ $f: \sum\limits_{A}^{*}->\sum\limits_{B}^{*}$  telle que $w\in A$ <=> $f(w) \in 
 (Par contre ici pour la fonction f est many-one, donc on impose ni injectivité ni surjectivité)
 
 
+Nommons $L_{u}=\{<M>\#w |\text{M accepte le mot w}\}$, celui-ci n'est pas décidable : son complément $L_{\hat{u}}$ n'est pas semi-décidable. 
 
-Nommons $L_{u}=\{\text{<M>#w | M accepte le mot w} \}$
+Preuve :
+- Nous allons réduire $L_d$ à $L_{\hat{u}}$ en décrivant une procédure algorithmique pour transformer les instances de $L_d$ en des instances de $L_{\hat{u}}$. Soit $w'$ une instance de $L_d$.
+	1. La machine vérifie $w' \in L_{enc}$, si $w'$ n'est pas un encodage valide alors on retourne l'instance 
+	   <$M_{palindrome}$>#abba (on a bien $w' \notin L_d$ et <$M_{palindrome}$>#abba) 

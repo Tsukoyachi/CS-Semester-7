@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58974d84e3d9a631",
+            "id": "f0a29ebc821d86a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "d606d11d76f7731a",
+        "id": "e1bede86290640a8",
         "type": "tabs",
         "children": [
           {
-            "id": "0235b63f3dec08f3",
+            "id": "233348f5ac1d06bf",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Software Security/ressource/02-WebAttacks-XSS.pdf"
+                "file": "Software Security/ressource/03-WebAttacks-CSRF.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md"
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
               }
             }
           },
@@ -185,12 +185,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2edae22ffc25599",
+  "active": "f0a29ebc821d86a9",
   "lastOpenFiles": [
-    "Software Security/ressource/Pasted image 20230925081347.png",
-    "Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/ressource/Pasted image 20230925082649.png",
     "Software Security/ressource/03-WebAttacks-CSRF.pdf",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/ressource/02-WebAttacks-XSS.pdf",
+    "Software Security/ressource/Pasted image 20230925082107.png",
+    "Software Security/ressource/Pasted image 20230925081347.png",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
@@ -202,8 +205,6 @@
     "Software Security/ressource/Pasted image 20230918081504.png",
     "Software Security/ressource/Pasted image 20230918081448.png",
     "Software Security/ressource/Pasted image 20230918081418.png",
-    "Software Security/ressource/Pasted image 20230911084742.png",
-    "Software Security/ressource/Pasted image 20230918081253.png",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
@@ -231,7 +232,6 @@
     "Templates/Conception Logicielle Template.md",
     "Templates/Software Security Template.md",
     "Middleware/03-09-2023 -.md",
-    "Templates/Middleware Template.md",
-    "Templates/Machine Learning Template.md"
+    "Templates/Middleware Template.md"
   ]
 }

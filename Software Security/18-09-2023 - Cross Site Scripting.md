@@ -70,4 +70,15 @@ Exemple 1 :
 On restreint les scripts de téléchargement pour l'origine courante et `ajax.googleapis.com` :
 
 ```HTTP
+Content-Security-Policy: script-src 'self' ajax.googleapis.com
 ```
+
+```HTML
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script> src="/js/app.js"></script>
+<script src="http://evil.com/pwnage.js"></script>
+```
+
+La page à refusé de charger le script `http://evil.com/pwnage.js` parce qu'il viole la directive "script-src 'self' ajax.googleapis.com" de la Content-Security-Policy.
+
+![[Pasted image 20230925082107.png]]

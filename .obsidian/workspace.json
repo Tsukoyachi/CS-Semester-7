@@ -6,7 +6,7 @@
       {
         "id": "da0261a419093d68",
         "type": "tabs",
-        "dimension": 54.1044776119403,
+        "dimension": 99.99999999999999,
         "children": [
           {
             "id": "fc63cc9338df105a",
@@ -17,23 +17,6 @@
                 "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "19ec125e783d3663",
-        "type": "tabs",
-        "dimension": 45.8955223880597,
-        "children": [
-          {
-            "id": "7479865eec88cbc4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Software Security/ressource/03-WebAttacks-CSRF.pdf"
               }
             }
           }

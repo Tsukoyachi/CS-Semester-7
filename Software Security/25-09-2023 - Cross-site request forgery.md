@@ -50,7 +50,6 @@ Dans chaque fenêtre du navigateur, on a :
   (Chargement : OnLoad | Timing : setTimeout(), clearTimeout() | Actions utilisateur : OnClick, OnMouseover, ...)
 ```
 
-
 Maintenir l'état du client
 Les interactions web sont sans état (stateless) par nature, les requêtes HTTP sont envoyé dans un sens puis dans l'autre.
 
@@ -192,7 +191,11 @@ Authentification persistante validée à chaque requête HTTP, dur à deviner (�
 ```
 
 Variations :
-- identifiant de session
-- token indépendant de la session
-- #Todo à rattraper
+- Identifiant de session
+- Token indépendant de la session
+- Token dépendant de la session
+- HMAC / MD5 / SHA-1 d'identifiant de session pour protection de l'intégrité.
+
+Token pour la maintenance de l'état côté serveur
+- L'id de session + la validation du token secret.
 

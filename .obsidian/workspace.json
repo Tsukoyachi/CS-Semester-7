@@ -6,6 +6,7 @@
       {
         "id": "da0261a419093d68",
         "type": "tabs",
+        "dimension": 54.1044776119403,
         "children": [
           {
             "id": "fc63cc9338df105a",
@@ -22,16 +23,17 @@
         ]
       },
       {
-        "id": "55278a2e1fe5a60b",
+        "id": "19ec125e783d3663",
         "type": "tabs",
+        "dimension": 45.8955223880597,
         "children": [
           {
-            "id": "3f35f24a170b0480",
+            "id": "7479865eec88cbc4",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "pdf",
               "state": {
-                "file": "Software Security/ressource/Pasted image 20230925082831.png"
+                "file": "Software Security/ressource/03-WebAttacks-CSRF.pdf"
               }
             }
           }
@@ -85,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -186,6 +189,8 @@
   },
   "active": "fc63cc9338df105a",
   "lastOpenFiles": [
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/ressource/Pasted image 20230925082831.png",
     "Software Security/ressource/Pasted image 20230925083639.png",
     "Software Security/ressource/Pasted image 20230925083854.png",
@@ -196,15 +201,12 @@
     "Software Security/ressource/Pasted image 20230925090608.png",
     "Software Security/ressource/Pasted image 20230925090623.png",
     "Software Security/ressource/Pasted image 20230925090651.png",
-    "Software Security/ressource/Pasted image 20230925090704.png",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Algorithmique/11-09-2023 - Introduction.md",
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",

@@ -54,7 +54,7 @@ Pour un arbre de régression, par contre on va continuer de subdiviser tant que 
 
  L'index de GINI : $GINI(n) = \sum\limits_{class~c}p(c|n)(1-p(c|n))=1-\sum\limits_{class~c}p²(c|n)$ 
  Ici $p(c|n)$ c'est la probabilité que l'on trouve la classe c dans le nœud n.
-- Exemple si un noeud contient {0,0,1,1,1,2,2,2,2,2}
+- Exemple si un nœud contient {0,0,1,1,1,2,2,2,2,2}
 	- p(0) = 2/10 = 0.2
 	- p(1) = 3/10 = 0.3
 	- p(2) = 5/10 = 0.5

@@ -65,7 +65,15 @@ Pour un arbre de régression, par contre on va continuer de subdiviser tant que 
 Ici l'indice de GINI mesure donc l'impureté et non la pureté.
 
 ### L'entropie ou la perte en logarithme
-#Todo ![[Pasted image 20230919084028.png]]
+
+Ici : $E(n)=-\sum\limits_{class~c}p(c|n)log(p(c|n))$
+- Exemple si un nœud contient {0,0,1,1,1,2,2,2,2,2}
+	- p(0) = 2/10 = 0.2
+	- p(1) = 3/10 = 0.3
+	- p(2) = 5/10 = 0.5
+	- Log Loss = 1.03
+- La valeur max du log loss c'est : $3*\frac{log(nbClasse)}{nbClasse}$ 
+- La valeur minimale est à : 0
 
 ## Construire l'arbre
 #Todo ![[Pasted image 20230919084146.png]]
@@ -80,8 +88,7 @@ Le second lui n'est pas pur, on a commencé par séparer selon b puis dans les d
 
 ### L'élagage (ou pruning)
 
-#Todo J'ai pas compris ce qu'il fallait noter.
-
+supprimer les branches (parties terminales) peu représentatives pour garder de bonnes performances prédictives (généralisation) => nécessité d'un critère pour désigner les branches à élaguer. Après élagage, les nouvelles feuilles sont labelisées sur base de la distribution des exemples d'apprentissage (classe majoritaire).
 ## Conclusion
 
 #Todo ![[Pasted image 20230919085025.png]]

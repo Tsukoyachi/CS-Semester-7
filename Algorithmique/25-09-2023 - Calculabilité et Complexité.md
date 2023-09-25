@@ -52,3 +52,9 @@ $f: \sum\limits_{A}^{*}->\sum\limits_{B}^{*}$  telle que $w\in A$ <=> $f(w) \in 
 
 - Intuitivement, un problème A se réduit à un problème B si connaissant un algorithme pour décider/calculer B, on peut obtenir un algorithme pour décider/calculer A.
 - A est alors plus facile (ou aussi facile) que B !
+
+(Par contre ici pour la fonction f est many-one, donc on impose ni injectivité ni surjectivité)
+
+
+
+Nommons $L_{u}=\{\text{<M>#w | M accepte le mot w} \}$

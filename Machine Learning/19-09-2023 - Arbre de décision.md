@@ -9,19 +9,20 @@
 
 La semaine dernière pour le td sur les iris on a fait un seuilage à la main pour les classer.
 En réalité, nous avons fait inconsciemment un arbre de décision à la main. Voici l'une des solutions qui été proposée :
-
-![[Pasted image 20230919082417.png]]
+![[Pasted image 20230925224510.png |center]]
 
 Les arbres de décisions peuvent être utilisé pour la classification comme pour la régression.
 Le but va être de tester des seuils par rapport aux features (valeurs) de ma donnée.
 
-Pour de la classification on va se rapprocher d'un kd three
-![[Pasted image 20230919082551.png]]
+Pour de la classification on va se rapprocher d'un kd three :
+
+![[Pasted image 20230919082551.png |center]]
 
 On va ajouter des lignes pour séparer les classes dans notre graphes afin de les classes, ses lignes représenteront nos valeurs seuils.
 
-Pour la régression :
-#Todo rattraper la régression
+Pour la régression on va essayer de construire un escalier sur lequel on estimera les valeurs :
+
+![[Pasted image 20230925224625.png |center]]
 
 
 ```ad-question
@@ -34,10 +35,15 @@ Il faut éviter de construire des arbres trop profond pour éviter le surrentrai
 
 ```ad-question
 title: Mais alors, comment choisir une features et une valeur seuil ?
-#Todo rattraper la slide
+- On peut prendre une décision qui va séparer la donnée en deux ensemble de tailles équivalentes.
+- On peut aussi prendre une décision qui va diminuer l'erreur globale.
 ```
 
+En réalité dans ses deux questions, il n'y a pas de réponse universelle, ça dépend des cas et pour cela en terme de codes on va jouer avec les hyperparamètres de notre algorithme de création d'arbre de décision.
+
 ## L'impureté
+
+L'impureté se mesure à une hauteur fixe et mesure la qualité d'un noeud.
 
 #Todo ![[Pasted image 20230919083232.png]]
 

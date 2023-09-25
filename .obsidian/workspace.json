@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "051638e936efd61e",
+        "id": "a36df654ac4eba86",
         "type": "tabs",
         "children": [
           {
-            "id": "0cea7635e2399214",
+            "id": "05f68116436af603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "c08c89b341b94d90",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0b3279cfdeb9bb07",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Algorithmique/ressource/CM3.pdf"
               }
             }
           }
@@ -102,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md"
+                "file": "Machine Learning/19-09-2023 - Arbre de décision.md"
               }
             }
           },
@@ -185,10 +169,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0cea7635e2399214",
+  "active": "05f68116436af603",
   "lastOpenFiles": [
-    "Algorithmique/ressource/CM3.pdf",
+    "Machine Learning/ressource/Pasted image 20230925224625.png",
+    "Machine Learning/ressource/Pasted image 20230925224510.png",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+    "Algorithmique/ressource/CM3.pdf",
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
@@ -203,7 +189,6 @@
     "Software Security/ressource/Pasted image 20230925090546.png",
     "Software Security/ressource/Pasted image 20230925090608.png",
     "Software Security/ressource/Pasted image 20230925090623.png",
-    "Software Security/ressource/Pasted image 20230925090651.png",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",

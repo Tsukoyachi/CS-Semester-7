@@ -17,6 +17,8 @@
 
 Plus concrètement, c'est une attaque qui **force un utilisateur** à exécuter des actions non voulues sur une application web sur laquelle ils sont **déjà connecté**... Avec un peu d'aide d’ingénierie sociale (comme l'envoie d'un lien via un email ou un chat), un attaquant peut alors piéger une application web pour exécuter des actions qu'il aura précédemment choisi.
 
+![[Pasted image 20230925115937.png | center]]
+
 ```ad-fail
 title: 2007 : Gmail est piraté
 
@@ -29,9 +31,13 @@ Cela a permit à un attaquant de prendre le contrôle de davidairey.com (car le 
 
 ```ad-caution
 title: Pas uniquement sur serveur web : attaque sur routeur
-![[Pasted image 20230925115937.png | center]]
+En réalité, 50% des routeurs domestique n'ont qu'un mot de passe par défaut ou pas de mot de passe tout court.
 
-![[Pasted image 20230925082831.png | center]]
+On pourrait donc imaginer un scénario où un utilisateur va sur un site malveillant et une requête va alors être adressée au routeur afin de s'y connecter, en prendre le contrôle et modifier le serveur DNS ce qui permet à l'attaquant de contrôler la navigation de l'utilisateur.
+
+Il pourrait également envoyer un malware à utiliser tous utilisateurs de ce réseau ou effectuer toute sortes d'actions malveillantes.
+
+![[Pasted image 20230925082811.png | center]]
 ```
 
 ```ad-note

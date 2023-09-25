@@ -20,15 +20,16 @@ Plus concrètement, c'est une attaque qui **force un utilisateur** à exécuter 
 ```ad-fail
 title: 2007 : Gmail est piraté
 
-Lorsqu'un utilisateur se connecte à gmail, s'il viste un sit
+Lorsqu'un utilisateur se connecte à gmail, s'il viste un site malicieux générera une requête considérée comme provenant de la victime.
 
+Cette méthode à été utilisée pour envoyer l'email de l'utilisateur à l'attaquant.
+
+Cela a permit à un attaquant de prendre le contrôle de davidairey.com (car le domaine utilisait une authentification basée sur l'email).
 ```
-
-![[Pasted image 20230925082649.png | center]]
 
 ```ad-caution
 title: Pas uniquement sur serveur web : attaque sur routeur
-![[Pasted image 20230925082811.png | center]]
+![[Pasted image 20230925115937.png | center]]
 
 ![[Pasted image 20230925082831.png | center]]
 ```

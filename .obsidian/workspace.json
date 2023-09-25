@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "55278a2e1fe5a60b",
+        "id": "da0261a419093d68",
         "type": "tabs",
         "children": [
           {
-            "id": "3f35f24a170b0480",
+            "id": "fc63cc9338df105a",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,6 +16,22 @@
                 "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "55278a2e1fe5a60b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f35f24a170b0480",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Software Security/ressource/Pasted image 20230925082831.png"
               }
             }
           }
@@ -168,26 +184,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3f35f24a170b0480",
+  "active": "fc63cc9338df105a",
   "lastOpenFiles": [
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/ressource/Pasted image 20230925082831.png",
+    "Software Security/ressource/Pasted image 20230925083639.png",
+    "Software Security/ressource/Pasted image 20230925083854.png",
+    "Software Security/ressource/Pasted image 20230925084856.png",
+    "Software Security/ressource/Pasted image 20230925085608.png",
+    "Software Security/ressource/Pasted image 20230925085637.png",
+    "Software Security/ressource/Pasted image 20230925090546.png",
+    "Software Security/ressource/Pasted image 20230925090608.png",
+    "Software Security/ressource/Pasted image 20230925090623.png",
+    "Software Security/ressource/Pasted image 20230925090651.png",
+    "Software Security/ressource/Pasted image 20230925090704.png",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Algorithmique/11-09-2023 - Introduction.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/ressource/Pasted image 20230925090704.png",
-    "Software Security/ressource/Pasted image 20230925090651.png",
     "Software Security/ressource/03-WebAttacks-CSRF.pdf",
-    "Software Security/ressource/Pasted image 20230925090623.png",
-    "Software Security/ressource/Pasted image 20230925090608.png",
-    "Software Security/ressource/Pasted image 20230925090546.png",
-    "Software Security/ressource/Pasted image 20230925085637.png",
-    "Software Security/ressource/Pasted image 20230925085608.png",
-    "Software Security/ressource/Pasted image 20230925084856.png",
-    "Software Security/ressource/Pasted image 20230925083854.png",
-    "Software Security/ressource/Pasted image 20230925083639.png",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",

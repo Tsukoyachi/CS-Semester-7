@@ -4,19 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "da0261a419093d68",
+        "id": "051638e936efd61e",
         "type": "tabs",
-        "dimension": 99.99999999999999,
         "children": [
           {
-            "id": "fc63cc9338df105a",
+            "id": "0cea7635e2399214",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c08c89b341b94d90",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b3279cfdeb9bb07",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Algorithmique/ressource/CM3.pdf"
               }
             }
           }
@@ -87,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
+                "file": "Algorithmique/25-09-2023 - Calculabilité et Complexité.md"
               }
             }
           },
@@ -170,10 +185,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc63cc9338df105a",
+  "active": "0cea7635e2399214",
   "lastOpenFiles": [
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
+    "Algorithmique/ressource/CM3.pdf",
+    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+    "Algorithmique/ressource",
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/ressource/Pasted image 20230925082831.png",
     "Software Security/ressource/Pasted image 20230925083639.png",
     "Software Security/ressource/Pasted image 20230925083854.png",
@@ -189,11 +209,9 @@
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Algorithmique/11-09-2023 - Introduction.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
-    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
@@ -208,14 +226,11 @@
     "Gestion Comptable & financière",
     "Machine Learning/ressource",
     "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
-    "Software Security/ressource",
-    "Software Security/Sans titre",
     "Readme.md",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md",
     "Templates/Conception Logicielle Template.md",
     "Templates/Software Security Template.md",
-    "Middleware/03-09-2023 -.md",
-    "Templates/Middleware Template.md"
+    "Middleware/03-09-2023 -.md"
   ]
 }

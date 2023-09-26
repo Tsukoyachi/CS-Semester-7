@@ -96,5 +96,7 @@ X_tsne = tsne.fit_transform(X)
 title: On n'utilise pas tsne pour la classification
 tSNE ne sert que pour la visualisation !
 tSNE bouge les points de façon itérative jusqu'à ce que l'algorithme, on ne peut pas ajouter de nouveau points.
+
+PCA par contre est un changement de base donc une transformation inversible. Donc ça pourrait fonctionner.
 ```
 

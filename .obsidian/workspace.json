@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "086b668dae23eefd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3cebf9fbb8254082",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Machine Learning/ressource/PCA-tSNE.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"

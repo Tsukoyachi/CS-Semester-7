@@ -61,4 +61,6 @@ Nommons $L_{u}=\{<M>\#w |\text{M accepte le mot w}\}$, celui-ci n'est pas décid
 Preuve :
 - Nous allons réduire $L_d$ à $L_{\hat{u}}$ en décrivant une procédure algorithmique pour transformer les instances de $L_d$ en des instances de $L_{\hat{u}}$. Soit $w'$ une instance de $L_d$.
 	1. La machine vérifie $w' \in L_{enc}$, si $w'$ n'est pas un encodage valide alors on retourne l'instance 
-	   <$M_{palindrome}$>#abba (on a bien $w' \notin L_d$ et <$M_{palindrome}$>#abba) 
+	   <$M_{palindrome}$>#abba (on a bien $w' \notin L_d$ et <$M_{palindrome}$>#abba $\notin L_{\hat{u}}$) 
+	2. Si $w' = <M>$ est un encodage valide, alors on retourne l'instance $w'\#w' = <M>\#<M>$ (on a bien $w' \in L_d$ si et seulement si $<M>\#<M> \in L_{\hat{u}}$).
+Cette réduction montre que si $L_{\hat{u}}$ est décidable alors $L_d$ l'est également, or nous savons que $L_d$ n'est pas décidable, donc $L_{\hat{u}}$ non plus, et par conséquent $L_u$ n'est pas décidable.

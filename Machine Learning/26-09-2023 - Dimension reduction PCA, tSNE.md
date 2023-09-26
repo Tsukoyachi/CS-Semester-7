@@ -74,7 +74,27 @@ Les paramètres de l'algorithme de tSNE :
 La perplexité (il faut la garder entre 5 et 50) : Il permet de régler le nombre de point par voisinage.
 ![[Pasted image 20230926084652.png | center]]
 
-Le facteur d
+Le facteur d'exagération : #Todo 
+
+Le learning rate ϵ : Pas trop petit, mais pas trop gros. Il représente le déplacement des point à chaque itération pour tSNE.
 
 On peut jouer avec les paramètre [sur ce lien pour mieux comprendre.](https://distill.pub/2016/misread-tsne/)
+
+Il existe aussi une variante qui s'appelle Barnes-Hut tSNE, c'est une approximation qui est moins gourmande en performances. 
+Elle n'est efficace que pour les dataset dense de dimensions d'arrivée inférieur à 3 (2 en général).
+
+Elle introduit un autre paramètre, angle : On le laisse en général entre 0.2 et 0.8, il permet de régler le ratio performance et précision. (plus c'est grand moins c'est précis car on va approximer des plus grandes régions à un seul point).
+
+Le code pour le tSNE d'origine avec la librairie sklearn :
+```python
+from sklearn import manifold
+tsne = manifold.TNSE(n_components=2, init='pca', random_state=0)
+X_tsne = tsne.fit_transform(X)
+```
+
+```ad-danger
+title: On n'utilise pas tsne pour la classification
+tSNE ne sert que pour la visualisation !
+tSNE bouge les points de façon itérative jusqu'à ce que l'algorithme, on ne peut pas ajouter de nouveau points.
+```
 

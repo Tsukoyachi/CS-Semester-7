@@ -71,7 +71,7 @@ Voici un exemple sur une partie du dataset digit :
 
 Les paramètres de l'algorithme de tSNE :
 
-La perplexité (il faut la garder entre 5 et 50) : Il permet de régler le nombre de point par voisinage.
+La perplexité (il faut la garder entre 5 et 50) : Il permet de régler le nombre de point par cluster.
 ![[Pasted image 20230926084652.png | center]]
 
 Le facteur d'exagération : #Todo 

@@ -9,19 +9,20 @@
 
 La semaine dernière pour le td sur les iris on a fait un seuilage à la main pour les classer.
 En réalité, nous avons fait inconsciemment un arbre de décision à la main. Voici l'une des solutions qui été proposée :
-
-![[Pasted image 20230919082417.png]]
+![[Pasted image 20230925224510.png |center]]
 
 Les arbres de décisions peuvent être utilisé pour la classification comme pour la régression.
 Le but va être de tester des seuils par rapport aux features (valeurs) de ma donnée.
 
-Pour de la classification on va se rapprocher d'un kd three
-![[Pasted image 20230919082551.png]]
+Pour de la classification on va se rapprocher d'un kd three :
+
+![[Pasted image 20230919082551.png |center]]
 
 On va ajouter des lignes pour séparer les classes dans notre graphes afin de les classes, ses lignes représenteront nos valeurs seuils.
 
-Pour la régression :
-#Todo rattraper la régression
+Pour la régression on va essayer de construire un escalier sur lequel on estimera les valeurs :
+
+![[Pasted image 20230925224625.png |center]]
 
 
 ```ad-question
@@ -34,18 +35,26 @@ Il faut éviter de construire des arbres trop profond pour éviter le surrentrai
 
 ```ad-question
 title: Mais alors, comment choisir une features et une valeur seuil ?
-#Todo rattraper la slide
+- On peut prendre une décision qui va séparer la donnée en deux ensemble de tailles équivalentes.
+- On peut aussi prendre une décision qui va diminuer l'erreur globale.
 ```
+
+En réalité dans ses deux questions, il n'y a pas de réponse universelle, ça dépend des cas et pour cela en terme de codes on va jouer avec les hyperparamètres de notre algorithme de création d'arbre de décision.
 
 ## L'impureté
 
-#Todo ![[Pasted image 20230919083232.png]]
+L'impureté se mesure à une hauteur fixe et mesure la qualité d'un nœud.
+Pour la mesure de l'impureté : {1,1,0,1,1} est plus pur que {0,1,0,1,1}.
+
+Pour un arbre de classification, on va subdiviser tant que l'impureté est trop haute.
+
+Pour un arbre de régression, par contre on va continuer de subdiviser tant que le coût est trop haut.
 
 ### L'index de GINI
 
  L'index de GINI : $GINI(n) = \sum\limits_{class~c}p(c|n)(1-p(c|n))=1-\sum\limits_{class~c}p²(c|n)$ 
- Ici $p(c|n)$ c'est la probabilité que l'on trouve la classe c dans le noeud n.
-- Exemple si un noeud contient {0,0,1,1,1,2,2,2,2,2}
+ Ici $p(c|n)$ c'est la probabilité que l'on trouve la classe c dans le nœud n.
+- Exemple si un nœud contient {0,0,1,1,1,2,2,2,2,2}
 	- p(0) = 2/10 = 0.2
 	- p(1) = 3/10 = 0.3
 	- p(2) = 5/10 = 0.5
@@ -56,7 +65,15 @@ title: Mais alors, comment choisir une features et une valeur seuil ?
 Ici l'indice de GINI mesure donc l'impureté et non la pureté.
 
 ### L'entropie ou la perte en logarithme
-#Todo ![[Pasted image 20230919084028.png]]
+
+Ici : $E(n)=-\sum\limits_{class~c}p(c|n)log(p(c|n))$
+- Exemple si un nœud contient {0,0,1,1,1,2,2,2,2,2}
+	- p(0) = 2/10 = 0.2
+	- p(1) = 3/10 = 0.3
+	- p(2) = 5/10 = 0.5
+	- Log Loss = 1.03
+- La valeur max du log loss c'est : $3*\frac{log(nbClasse)}{nbClasse}$ 
+- La valeur minimale est à : 0
 
 ## Construire l'arbre
 #Todo ![[Pasted image 20230919084146.png]]
@@ -71,8 +88,7 @@ Le second lui n'est pas pur, on a commencé par séparer selon b puis dans les d
 
 ### L'élagage (ou pruning)
 
-#Todo J'ai pas compris ce qu'il fallait noter.
-
+supprimer les branches (parties terminales) peu représentatives pour garder de bonnes performances prédictives (généralisation) => nécessité d'un critère pour désigner les branches à élaguer. Après élagage, les nouvelles feuilles sont labelisées sur base de la distribution des exemples d'apprentissage (classe majoritaire).
 ## Conclusion
 
 #Todo ![[Pasted image 20230919085025.png]]

@@ -39,7 +39,7 @@ title: Mais alors, comment choisir une features et une valeur seuil ?
 - On peut aussi prendre une décision qui va diminuer l'erreur globale.
 ```
 
-En réalité dans ses deux questions, il n'y a pas de réponse universelle, ça dépend des cas et pour cela en terme de codes on va jouer avec les hyperparamètres de notre algorithme de création d'arbre de décision.
+En réalité dans ses deux questions, il n'y a pas de réponse universelle, ça dépend des cas et pour cela en terme de codes on va jouer avec les hyper paramètres de notre algorithme de création d'arbre de décision.
 
 ## L'impureté
 

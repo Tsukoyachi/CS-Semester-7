@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "a36df654ac4eba86",
+        "id": "87648142dc7dfa69",
         "type": "tabs",
         "children": [
           {
-            "id": "05f68116436af603",
+            "id": "f17ad168e2dd863b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "086b668dae23eefd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3cebf9fbb8254082",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Machine Learning/ressource/PCA-tSNE.pdf"
               }
             }
           }
@@ -86,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/19-09-2023 - Arbre de décision.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/19-09-2023 - Arbre de décision.md"
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md"
               }
             }
           },
@@ -158,22 +174,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
+      "canvas:Créer une nouvelle toile": false,
+      "zk-prefixer:Créer une nouvelle note unique": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "05f68116436af603",
+  "active": "f17ad168e2dd863b",
   "lastOpenFiles": [
+    "Machine Learning/ressource/Pasted image 20230926082626.png",
+    "Machine Learning/ressource/Pasted image 20230926082606.png",
+    "Machine Learning/ressource/Pasted image 20230926082358.png",
+    "Machine Learning/ressource/PCA-tSNE.pdf",
+    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
+    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Machine Learning/ressource/Pasted image 20230925224625.png",
     "Machine Learning/ressource/Pasted image 20230925224510.png",
-    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/ressource/CM3.pdf",
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
@@ -186,9 +208,6 @@
     "Software Security/ressource/Pasted image 20230925084856.png",
     "Software Security/ressource/Pasted image 20230925085608.png",
     "Software Security/ressource/Pasted image 20230925085637.png",
-    "Software Security/ressource/Pasted image 20230925090546.png",
-    "Software Security/ressource/Pasted image 20230925090608.png",
-    "Software Security/ressource/Pasted image 20230925090623.png",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
@@ -196,7 +215,6 @@
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
@@ -210,12 +228,10 @@
     "Templates/Algorithmique Template.md",
     "Gestion Comptable & financière",
     "Machine Learning/ressource",
-    "Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
     "Readme.md",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md",
     "Templates/Conception Logicielle Template.md",
-    "Templates/Software Security Template.md",
-    "Middleware/03-09-2023 -.md"
+    "Templates/Software Security Template.md"
   ]
 }

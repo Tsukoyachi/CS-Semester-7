@@ -52,6 +52,29 @@ tSNE : tSNE : t-distributed Stochastic Neighbor Embedding
 Le but de digit c'est de conserver la distance dans l'espace original et dans l'espace projeté.
 Donc que les point distant reste distant et que les point proche reste proche tout en réduisant la dimension pour qu'elle soit en dimension 2 ou 3.
 
-Donc on va d'abord calculer la distance entre chaque point 
+Donc on va d'abord calculer la distance pour chaque point avec les autres point du dataset, le but est de créer une gaussienne pour chaque point qui sera centrée sur notre point.
 
+![[Pasted image 20230926084108.png | center]]
+
+Le t de tSNE c'est parce que c'est une t-distribution, sur les bords de la gaussienne on arrive très lentement vers 0 et ça change tout :
+
+![[Pasted image 20230926084225.png | center]]
+
+
+```ad-attention
+L'algo de tSNE à un défaut, c'est un algorithme stochastique, plusieurs exécution avec des seeds différents peuvent donner des résultats différents.
+```
+
+Voici un exemple sur une partie du dataset digit :
+
+![[Pasted image 20230926084544.png | center]]
+
+Les paramètres de l'algorithme de tSNE :
+
+La perplexité (il faut la garder entre 5 et 50) : Il permet de régler le nombre de point par voisinage.
+![[Pasted image 20230926084652.png | center]]
+
+Le facteur d
+
+On peut jouer avec les paramètre [sur ce lien pour mieux comprendre.](https://distill.pub/2016/misread-tsne/)
 

@@ -4,16 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "87648142dc7dfa69",
+        "id": "bba8e94095b1aefe",
         "type": "tabs",
         "children": [
           {
-            "id": "f17ad168e2dd863b",
+            "id": "80258cbf280aab6e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+                "file": "Middleware/20-09-2023 - Advanced feature of RMI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f3f9b527688637af",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19a1cb6f724463b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Middleware/27-09-2023 -.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+                "file": "Middleware/27-09-2023 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+                "file": "Middleware/27-09-2023 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md"
+                "file": "Middleware/27-09-2023 -.md"
               }
             }
           },
@@ -168,12 +186,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f17ad168e2dd863b",
+  "active": "19a1cb6f724463b1",
   "lastOpenFiles": [
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/27-09-2023 -.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
     "Gestion Comptable & financière/ressource",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
     "Machine Learning/ressource/PCA-tSNE.pdf",
     "Machine Learning/ressource/Pasted image 20230926084652.png",
@@ -185,7 +208,6 @@
     "Machine Learning/ressource/Pasted image 20230926082959.png",
     "Machine Learning/ressource/Pasted image 20230926082944.png",
     "Machine Learning/ressource/Pasted image 20230926082626.png",
-    "Machine Learning/ressource/Pasted image 20230926082606.png",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/ressource/CM3.pdf",
@@ -197,12 +219,8 @@
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Middleware/ressource",
@@ -214,7 +232,6 @@
     "Gestion Comptable & financière",
     "Readme.md",
     "cheatsheet/LaTeX - exemple simple.md",
-    "Algorithmique/03-09-2023 -.md",
-    "Templates/Conception Logicielle Template.md"
+    "Algorithmique/03-09-2023 -.md"
   ]
 }

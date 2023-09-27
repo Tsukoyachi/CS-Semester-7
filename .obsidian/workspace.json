@@ -87,8 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 416.5
   },
   "right": {
     "id": "570b43c025aed349",
@@ -189,12 +188,12 @@
   },
   "active": "80258cbf280aab6e",
   "lastOpenFiles": [
-    "Middleware/ressource/Pasted image 20230927135331.png",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
-    "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/27-09-2023 -.md",
+    "Middleware/ressource/Pasted image 20230927135331.png",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
     "Gestion Comptable & financière/ressource",
@@ -209,7 +208,6 @@
     "Machine Learning/ressource/Pasted image 20230926083217.png",
     "Machine Learning/ressource/Pasted image 20230926082959.png",
     "Machine Learning/ressource/Pasted image 20230926082944.png",
-    "Machine Learning/ressource/Pasted image 20230926082626.png",
     "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/ressource/CM3.pdf",

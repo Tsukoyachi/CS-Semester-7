@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md"
+                "file": "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md"
               }
             }
           },
@@ -168,8 +168,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a2edae22ffc25599",
+  "active": "f17ad168e2dd863b",
   "lastOpenFiles": [
+    "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
+    "Gestion Comptable & financière/ressource",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
     "Machine Learning/ressource/PCA-tSNE.pdf",
     "Machine Learning/ressource/Pasted image 20230926084652.png",
@@ -193,7 +197,6 @@
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
@@ -209,11 +212,9 @@
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
     "Gestion Comptable & financière",
-    "Machine Learning/ressource",
     "Readme.md",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md",
-    "Templates/Conception Logicielle Template.md",
-    "Templates/Software Security Template.md"
+    "Templates/Conception Logicielle Template.md"
   ]
 }

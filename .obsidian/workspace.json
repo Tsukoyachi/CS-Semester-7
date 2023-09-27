@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 416.5
   },
   "right": {
     "id": "570b43c025aed349",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md"
+                "file": "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md"
               }
             }
           },
@@ -169,10 +168,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f17ad168e2dd863b",
+  "active": "a2edae22ffc25599",
   "lastOpenFiles": [
-    "Machine Learning/ressource/PCA-tSNE.pdf",
     "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Machine Learning/ressource/PCA-tSNE.pdf",
     "Machine Learning/ressource/Pasted image 20230926084652.png",
     "Machine Learning/ressource/Pasted image 20230926084544.png",
     "Machine Learning/ressource/Pasted image 20230926084225.png",

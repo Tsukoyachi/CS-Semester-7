@@ -10,4 +10,3 @@
 ![[02-Vulns-MemCorruption-BufferOverflows.pdf]]
 
 ---
-

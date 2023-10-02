@@ -22,18 +22,16 @@
         ]
       },
       {
-        "id": "e2c3feaacf59745a",
+        "id": "734ab0e8c5319c59",
         "type": "tabs",
         "children": [
           {
-            "id": "33f6834b09f372af",
+            "id": "11f6e111ac940bb6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
-                "mode": "source",
-                "source": false
+                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf"
               }
             }
           }
@@ -87,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 416.5
   },
   "right": {
     "id": "570b43c025aed349",
@@ -187,12 +184,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33f6834b09f372af",
+  "active": "19a1cb6f724463b1",
   "lastOpenFiles": [
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/02-10-2023 - Memory Corruption.md",
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
+    "Software Security/02-10-2023 - Memory Corruption.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
@@ -233,7 +230,6 @@
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
     "Readme.md",
-    "cheatsheet/LaTeX - exemple simple.md",
-    "Algorithmique/03-09-2023 -.md"
+    "cheatsheet/LaTeX - exemple simple.md"
   ]
 }

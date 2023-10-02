@@ -76,20 +76,22 @@ Ici : $E(n)=-\sum\limits_{class~c}p(c|n)log(p(c|n))$
 - La valeur minimale est à : 0
 
 ## Construire l'arbre
-#Todo ![[Pasted image 20230919084146.png]]
+ ![[Pasted image 20230919084146.png | center]]
 
-![[Pasted image 20230919084347.png]]
+![[Pasted image 20230919084347.png | center]]
 
 Ici on compare deux arbres construit à partir d'une table de vérité. 
 
 Le premier qui est pur à la fin est construit en commençant par découper par la valeur a puis par b à gauche et c à droite.
 
-Le second lui n'est pas pur, on a commencé par séparer selon b puis dans les deux sous arbre on sépare par a mais cette fois ci on a deux noeuds impurs (ils possède du 0 et du 1 ensemble).
+Le second lui n'est pas pur, on a commencé par séparer selon b puis dans les deux sous arbre on sépare par a mais cette fois ci on a deux nœuds impurs (ils possède du 0 et du 1 ensemble).
 
-### L'élagage (ou pruning)
+### L'élagage (ou Pruning)
 
-supprimer les branches (parties terminales) peu représentatives pour garder de bonnes performances prédictives (généralisation) => nécessité d'un critère pour désigner les branches à élaguer. Après élagage, les nouvelles feuilles sont labelisées sur base de la distribution des exemples d'apprentissage (classe majoritaire).
+Le but est de supprimer les branches (parties terminales) peu représentatives pour garder de bonnes performances prédictives (généralisation).
+Cela nécessite un critère pour désigner les branches à élaguer. 
+
 ## Conclusion
 
-#Todo ![[Pasted image 20230919085025.png]]
+![[Pasted image 20230919085025.png |center]]
 

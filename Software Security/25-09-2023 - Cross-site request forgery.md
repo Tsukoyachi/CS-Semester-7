@@ -199,3 +199,6 @@ Variations :
 Token pour la maintenance de l'état côté serveur
 - L'id de session + la validation du token secret.
 
+Les tokens pour l'état de la maintenance sans état :
+- Double validation : le token à envoyer dans le header (paramètre de requête) + cookie dans le body
+Le problème est d'assurer une défense solide (notamment https pour empêcher les attaquant d'injecter des cookies ou alors d'utiliser des cookies encryptés)

@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bba8e94095b1aefe",
+        "id": "f3f9b527688637af",
         "type": "tabs",
-        "dimension": 49.25373134328358,
         "children": [
           {
-            "id": "80258cbf280aab6e",
+            "id": "19a1cb6f724463b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Middleware/27-09-2023 -.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,17 +22,16 @@
         ]
       },
       {
-        "id": "f3f9b527688637af",
+        "id": "9b0e3024b208986d",
         "type": "tabs",
-        "dimension": 50.74626865671642,
         "children": [
           {
-            "id": "19a1cb6f724463b1",
+            "id": "0605b99694331251",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Middleware/ressource/AppRepRMI-ENG.pdf"
+                "file": "Software Security/ressource/03-WebAttacks-CSRF.pdf"
               }
             }
           }
@@ -103,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/27-09-2023 -.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/27-09-2023 -.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/27-09-2023 -.md"
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
               }
             }
           },
@@ -186,14 +184,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "80258cbf280aab6e",
+  "active": "19a1cb6f724463b1",
   "lastOpenFiles": [
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
+    "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Middleware/27-09-2023 -.md",
     "Middleware/ressource/Pasted image 20230927135331.png",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
     "Gestion Comptable & financière/ressource",
@@ -214,8 +215,6 @@
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
@@ -229,7 +228,6 @@
     "Templates/Gestion Comptable & financière Template.md",
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
-    "Gestion Comptable & financière",
     "Readme.md",
     "cheatsheet/LaTeX - exemple simple.md",
     "Algorithmique/03-09-2023 -.md"

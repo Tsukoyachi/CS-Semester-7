@@ -183,7 +183,9 @@ XmlHttpRequest (Ajax)
 
 ![[Pasted image 20230925090704.png]]
 
-## Défense basique contre le CSRF : les secrets token
+## Défense contre le CSRF : 
+
+### les secrets token
 
 Authentification persistante validée à chaque requête HTTP, dur à deviner (évidemment), envoyé au travers d'un champs caché, on évide le cookie pour éviter le vol !!
 ```HTML
@@ -202,3 +204,16 @@ Token pour la maintenance de l'état côté serveur
 Les tokens pour l'état de la maintenance sans état :
 - Double validation : le token à envoyer dans le header (paramètre de requête) + cookie dans le body
 Le problème est d'assurer une défense solide (notamment https pour empêcher les attaquant d'injecter des cookies ou alors d'utiliser des cookies encryptés)
+
+### Les cookies SameSite
+
+C'est un paramètre que l'ont peut régler côté serveur :
+```Javascript
+Set-Cookie: CookieName=CookieValue; SameSite=Lax;
+Set-Cookie: CookieName=CookieValue; SameSite=Strict;
+```
+
+Il y a 2 niveau de protection pour les cookies SameSite:
+- Strict : Le cookie ne sera pas inclu dans les requête venant d'un tier.
+	- Obligation de s'authentifier à chaque accès au site
+- Lax : Le cookie sera envoyé avec les requête GET venant d'un tier uniqu

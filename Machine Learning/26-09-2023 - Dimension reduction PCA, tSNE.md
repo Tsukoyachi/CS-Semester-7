@@ -56,7 +56,7 @@ Donc on va d'abord calculer la distance pour chaque point avec les autres point 
 
 ![[Pasted image 20230926084108.png | center]]
 
-Le t de tSNE c'est parce que c'est une t-distribution, sur les bords de la gaussienne on arrive très lentement vers 0 et ça change tout :
+Le t de tSNE c'est parce que c'est une t-distribution, sur les bords de la gaussienne on arrive très lentement vers 0 et ça change tout car sans la t-distribution, tout les éléments seraient collé au centre apparemment :
 
 ![[Pasted image 20230926084225.png | center]]
 

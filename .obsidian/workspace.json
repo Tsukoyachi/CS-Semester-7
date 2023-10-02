@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f3f9b527688637af",
+        "id": "a36df654ac4eba86",
         "type": "tabs",
         "children": [
           {
-            "id": "19a1cb6f724463b1",
+            "id": "05f68116436af603",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "734ab0e8c5319c59",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "11f6e111ac940bb6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf"
               }
             }
           }
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md"
+                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md"
               }
             }
           },
@@ -173,35 +157,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Ouvrir le sélecteur rapide": false,
-      "graph:Ouvrir la vue graphique": false,
-      "daily-notes:Ouvrir la note quotidienne": false,
-      "templates:Insérer le modèle": false,
-      "command-palette:Ouvrir la palette de commandes": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
       "templater-obsidian:Templater": false,
-      "canvas:Créer une nouvelle toile": false,
-      "zk-prefixer:Créer une nouvelle note unique": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19a1cb6f724463b1",
+  "active": "05f68116436af603",
   "lastOpenFiles": [
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "Software Security/02-10-2023 - Memory Corruption.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
-    "Middleware/27-09-2023 -.md",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/Pasted image 20230927135331.png",
-    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
-    "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
-    "Gestion Comptable & financière/ressource",
-    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
-    "Machine Learning/ressource/PCA-tSNE.pdf",
+    "Middleware/27-09-2023 -.md",
     "Machine Learning/ressource/Pasted image 20230926084652.png",
     "Machine Learning/ressource/Pasted image 20230926084544.png",
     "Machine Learning/ressource/Pasted image 20230926084225.png",
@@ -210,17 +183,28 @@
     "Machine Learning/ressource/Pasted image 20230926083217.png",
     "Machine Learning/ressource/Pasted image 20230926082959.png",
     "Machine Learning/ressource/Pasted image 20230926082944.png",
-    "Machine Learning/19-09-2023 - Arbre de décision.md",
+    "Machine Learning/ressource/Pasted image 20230926082626.png",
+    "Machine Learning/ressource/PCA-tSNE.pdf",
+    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Gestion Comptable & financière/ressource",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/ressource/CM3.pdf",
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
     "Middleware/ressource",

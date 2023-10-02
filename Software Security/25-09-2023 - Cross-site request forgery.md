@@ -203,7 +203,7 @@ Token pour la maintenance de l'état côté serveur
 
 Les tokens pour l'état de la maintenance sans état :
 - Double validation : le token à envoyer dans le header (paramètre de requête) + cookie dans le body
-Le problème est d'assurer une défense solide (notamment https pour empêcher les attaquant d'injecter des cookies ou alors d'utiliser des cookies encryptés)
+Le problème est d'assurer une défense solide (notamment HTTPS pour empêcher les attaquant d'injecter des cookies ou alors d'utiliser des cookies encryptés)
 
 ### Les cookies SameSite
 
@@ -214,6 +214,8 @@ Set-Cookie: CookieName=CookieValue; SameSite=Strict;
 ```
 
 Il y a 2 niveau de protection pour les cookies SameSite:
-- Strict : Le cookie ne sera pas inclu dans les requête venant d'un tier.
+- Strict : Le cookie ne sera pas inclus dans les requête venant d'un tier.
 	- Obligation de s'authentifier à chaque accès au site
-- Lax : Le cookie sera envoyé avec les requête GET venant d'un tier uniqu
+- Lax : Le cookie sera envoyé avec les requête GET venant d'un tier uniquement si le cookie vient de l’URL (ne fonctionnera donc pas avec iframe, balise image, balise script)
+
+Cette fonctionnalité est maintenant incluse dans la plupart des navigateurs.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Software Security/02-10-2023 - Memory Corruption.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,18 @@
         ]
       },
       {
-        "id": "9b0e3024b208986d",
+        "id": "e2c3feaacf59745a",
         "type": "tabs",
         "children": [
           {
-            "id": "0605b99694331251",
+            "id": "33f6834b09f372af",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Software Security/ressource/03-WebAttacks-CSRF.pdf"
+                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -85,7 +87,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -101,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Software Security/02-10-2023 - Memory Corruption.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Software Security/02-10-2023 - Memory Corruption.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
+                "file": "Software Security/02-10-2023 - Memory Corruption.md"
               }
             }
           },
@@ -184,10 +187,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19a1cb6f724463b1",
+  "active": "33f6834b09f372af",
   "lastOpenFiles": [
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/02-10-2023 - Memory Corruption.md",
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/27-09-2023 -.md",

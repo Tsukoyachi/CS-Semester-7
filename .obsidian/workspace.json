@@ -4,18 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "a36df654ac4eba86",
+        "id": "9ab6dbb61b1ec293",
         "type": "tabs",
         "children": [
           {
-            "id": "05f68116436af603",
+            "id": "0a5e3ff0553960cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "c13badbb69f64777",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dc370628f3f63947",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Machine Learning/ressource/clustering.pdf"
               }
             }
           }
@@ -85,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md"
+                "file": "Machine Learning/03-10-2023 - Clustering.md"
               }
             }
           },
@@ -157,24 +173,37 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
+      "canvas:Créer une nouvelle toile": false,
+      "zk-prefixer:Créer une nouvelle note unique": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "05f68116436af603",
+  "active": "0a5e3ff0553960cd",
   "lastOpenFiles": [
-    "Machine Learning/19-09-2023 - Arbre de décision.md",
-    "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
+    "Machine Learning/ressource/clustering.pdf",
+    "Machine Learning/03-10-2023 - Clustering.md",
     "Software Security/02-10-2023 - Memory Corruption.md",
-    "Middleware/ressource/Pasted image 20230927135331.png",
+    "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
+    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Middleware/27-09-2023 -.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/ressource/Pasted image 20230927135331.png",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+    "Gestion Comptable & financière/ressource/Pasted image 20230927114858.png",
+    "Gestion Comptable & financière/ressource",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Machine Learning/ressource/PCA-tSNE.pdf",
     "Machine Learning/ressource/Pasted image 20230926084652.png",
     "Machine Learning/ressource/Pasted image 20230926084544.png",
     "Machine Learning/ressource/Pasted image 20230926084225.png",
@@ -183,37 +212,24 @@
     "Machine Learning/ressource/Pasted image 20230926083217.png",
     "Machine Learning/ressource/Pasted image 20230926082959.png",
     "Machine Learning/ressource/Pasted image 20230926082944.png",
-    "Machine Learning/ressource/Pasted image 20230926082626.png",
-    "Machine Learning/ressource/PCA-tSNE.pdf",
-    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
-    "Gestion Comptable & financière/ressource",
-    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/ressource/CM3.pdf",
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
     "Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
     "Software Security/ressource/01-WebAttacks-SQLI.pdf",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
-    "Middleware/ressource",
     "Machine Learning/13-09-2023 - Introdu.md",
     "Rentrée.md",
     "Templates/Gestion Comptable & financière Template.md",
     "Sans titre.md",
     "Templates/Algorithmique Template.md",
-    "Readme.md",
-    "cheatsheet/LaTeX - exemple simple.md"
+    "Readme.md"
   ]
 }

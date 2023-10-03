@@ -90,3 +90,4 @@ Il se passe mal car l'un des problèmes de k-means c'est la mauvaise initialisat
 - Faiblesse : 
 	- ![[Pasted image 20231003084454.png]]
 
+#Todo J'ai arrêté de noter pour écouter, si nécessaire go compléter ici.

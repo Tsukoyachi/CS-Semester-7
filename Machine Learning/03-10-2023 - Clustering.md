@@ -74,3 +74,19 @@ Pour les approches clustering, celle à retenir c'est le **k-Means** même si on
 ![[Pasted image 20231003083417.png | center]]
 ![[Pasted image 20231003083431.png | center]]
 
+Un cas où ça se passe bien :
+![[Pasted image 20231003083747.png | center]]
+
+Un cas où ça se passe mal :
+![[Pasted image 20231003083805.png | center]]
+
+Il se passe mal car l'un des problèmes de k-means c'est la mauvaise initialisation.
+
+### Avantages et Inconvénients
+
+- Avantages
+	- Relativement efficace : O(tkn) où n c'est le nombre d'objet, k le nombre de clusters et t le nombre d'itérations. Normalement k, t << n
+- ![[Pasted image 20231003084429.png]]
+- Faiblesse : 
+	- ![[Pasted image 20231003084454.png]]
+

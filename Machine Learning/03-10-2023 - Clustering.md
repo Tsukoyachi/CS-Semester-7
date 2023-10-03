@@ -31,6 +31,9 @@ On séparerait peut être en deux cluster : Nourriture et chien
 ![[Pasted image 20231003081714.png | center]]
 
 
+
+### Les distances 
+
 Il ne faut pas oublier de standardiser les données sinon certaines variables auront beaucoup plus d'importance que d'autres. 
 
 - Calculer le mean absolute deviation : $s_{j}= \frac{1}{n}\sum\limits_{i=1}^{n}|x_{ij} - \mu_{j}|$  où $\mu_{j}=\frac{1}{n}\sum\limits_{i=1}^{n}x_{ij}$ 
@@ -41,7 +44,7 @@ Voici un exemple pour s'entraîner à faire les calculs.
 
 Mais pourquoi standardiser les données ? Pour avoir une meilleur notion de distance :
 
-![[Pasted image 20231003082355.png]]
+![[Pasted image 20231003082742.png | center]]
 
 ```ad-danger
 title: Distance de Manhattan
@@ -51,4 +54,23 @@ La distance de manhattan entre alice et bob pour la version non standardisé :
 C'est la somme des valeurs absolus des écarts entre les variables de alice et bob.
 ```
 
-On voit qu'ici on observe d'énormes écart entre les distances de manhattan 
+On voit qu'ici on observe d'énormes écart entre les distances de Manhattan non standardisé alors que pour la version standardisé on a des valeurs plus faibles mais aussi plus proche les une des autres.
+
+![[Pasted image 20231003082817.png | center]]
+
+La distance euclidienne c'est le cercle vert, celle de Manhattan le carré bleu, la max distance c'est le losange.
+
+![[Pasted image 20231003083033.png]]
+![[Pasted image 20231003083043.png]]
+
+
+Pour les approches clustering, celle à retenir c'est le **k-Means** même si on va en voir d'autres aujourd'hui. 
+![[Pasted image 20231003083141.png | center]]
+
+
+## Les algorithmes de partitioning, concept de base
+
+
+![[Pasted image 20231003083417.png | center]]
+![[Pasted image 20231003083431.png | center]]
+

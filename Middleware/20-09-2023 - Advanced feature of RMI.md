@@ -28,8 +28,7 @@ title: Deadlock
 L'un des problèmes qui peut survenir avec ça c'est le deadlock :
 ![[Pasted image 20231004133858.png | center]]
 
-Si l'on créer un cycle dans les appels entre plusieurs appels de méthodes RMI, on va occuper de plus en plu
-
+Si l'on créer un cycle dans les appels entre plusieurs appels de méthodes RMI, on va occuper de plus en plus de threads jusqu'à ce que l'on ne puisse plus en créer de nouveau et que l'application soit donc bloquée.
 ```
 
  

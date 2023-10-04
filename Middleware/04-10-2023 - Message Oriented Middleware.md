@@ -11,6 +11,10 @@
 
 ---
 
+Il fallait un système permettant d'envoyer des messages de manière **asynchrone**. En effet, quelques inconvénients que l'on peut rencontrer avec des systèmes classiques sont :
+- Les latences/pannes transitoires
+- Les délais sur le réseau
 
- 
+
+  
  

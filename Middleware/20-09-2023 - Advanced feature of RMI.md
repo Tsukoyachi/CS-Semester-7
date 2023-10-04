@@ -22,4 +22,14 @@ Pour cela on a plusieurs outils (synchronized, wait, notify, sémaphores et j'en
 Bien entendu ce type d'approche avec des threads posent plusieurs soucis notables :
 - Accès concurrent à une donnée, celle-ci peut être modifiée avant une lecture ou autre.
 - #Todo **à compléter avec le prochain cours**
+
+```ad-danger
+title: Deadlock
+L'un des problèmes qui peut survenir avec ça c'est le deadlock :
+![[Pasted image 20231004133858.png | center]]
+
+Si l'on créer un cycle dans les appels entre plusieurs appels de méthodes RMI, on va occuper de plus en plu
+
+```
+
  

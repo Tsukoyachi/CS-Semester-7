@@ -4,18 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e34104cba82b2bb4",
+        "id": "2573ca0a7ba7846e",
         "type": "tabs",
         "children": [
           {
-            "id": "4d4a7dbe561e5fd6",
+            "id": "29222601bafc8886",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Middleware/04-10-2023 - Java Messaging System.md",
-                "mode": "source",
-                "source": false
+                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf"
               }
             }
           }
@@ -69,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -85,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Middleware/04-10-2023 - Java Messaging System.md",
+                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Middleware/04-10-2023 - Java Messaging System.md",
+                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Middleware/04-10-2023 - Java Messaging System.md"
+                "file": "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf"
               }
             }
           },
@@ -168,11 +167,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4d4a7dbe561e5fd6",
+  "active": "a2edae22ffc25599",
   "lastOpenFiles": [
+    "Software Security/02-10-2023 - Memory Corruption.md",
+    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Middleware/04-10-2023 - Java Messaging System.md",
     "Middleware/ressource/JMS.pdf",
     "Middleware/04-10-2023 - Message Oriented Middleware.md",
-    "Middleware/04-10-2023 - Java Messaging System.md",
     "Middleware/ressource/Pasted image 20231004143512.png",
     "Middleware/ressource/Pasted image 20231004143424.png",
     "Middleware/ressource/Message Oriented Middleware (MOM).pdf",
@@ -190,9 +193,7 @@
     "Machine Learning/03-10-2023 - Clustering.md",
     "Machine Learning/ressource/Pasted image 20231003084454.png",
     "Machine Learning/ressource/Pasted image 20231003084429.png",
-    "Software Security/02-10-2023 - Memory Corruption.md",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "Middleware/27-09-2023 -.md",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
@@ -206,8 +207,6 @@
     "Algorithmique/ressource",
     "Algorithmique/11-09-2023 - Introduction.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Machine Learning/20-09-2023 - More in depth study of RMI.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",

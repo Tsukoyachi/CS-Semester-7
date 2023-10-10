@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md"
+                "file": "Machine Learning/10-10-2023 - Régression linéaire et logistique.md"
               }
             }
           },
@@ -157,19 +157,21 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "zk-prefixer:Create new unique note": false,
+      "switcher:Ouvrir le sélecteur rapide": false,
+      "graph:Ouvrir la vue graphique": false,
+      "daily-notes:Ouvrir la note quotidienne": false,
+      "templates:Insérer le modèle": false,
+      "command-palette:Ouvrir la palette de commandes": false,
       "templater-obsidian:Templater": false,
+      "canvas:Créer une nouvelle toile": false,
+      "zk-prefixer:Créer une nouvelle note unique": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "29222601bafc8886",
   "lastOpenFiles": [
+    "Machine Learning/03-10-2023 - Clustering.md",
+    "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
     "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "Software Security/02-10-2023 - Memory Corruption.md",
@@ -193,7 +195,6 @@
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/ressource/AppRepRMI-ENG.pdf",
     "Machine Learning/ressource/clustering.pdf",
-    "Machine Learning/03-10-2023 - Clustering.md",
     "Machine Learning/ressource/Pasted image 20231003084454.png",
     "Machine Learning/ressource/Pasted image 20231003084429.png",
     "Software Security/ressource/03-WebAttacks-CSRF.pdf",

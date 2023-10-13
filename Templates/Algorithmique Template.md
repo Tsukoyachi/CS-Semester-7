@@ -1,4 +1,8 @@
- ---
+---
+dg-home: "true"
+dg-publish: "true"
+---
+---
 
  Date de création : <% tp.date.now(format = "dddd DD MMMM yyyy HH:mm") %>
  Matière : Algorithmique
@@ -7,5 +11,5 @@
 
 ---
 
- <% await tp.file.move("CS-semester 7/CS-S7-publish/docs/Algorithmique/" + tp.file.title) %>
+ <% await tp.file.move("/Algorithmique/" + tp.file.title) %>
  <% tp.file.rename(tp.date.now(format = "DD-MM-YYYY") + " - ") %>

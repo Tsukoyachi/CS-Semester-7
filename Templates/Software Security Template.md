@@ -1,4 +1,8 @@
- ---
+---
+dg-publish: "true"
+dg-home: "true"
+---
+---
 
  Date de création : <% tp.date.now(format = "dddd DD MMMM yyyy HH:mm") %>
  Matière : Software Security
@@ -7,5 +11,5 @@
 
 ---
 
- <% await tp.file.move("CS-semester 7/CS-S7-publish/docs/Software Security/" + tp.file.title) %>
+ <% await tp.file.move("/Software Security/" + tp.file.title) %>
  <% tp.file.rename(tp.date.now(format = "DD-MM-YYYY") + " - ") %>

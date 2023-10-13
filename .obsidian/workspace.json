@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "2573ca0a7ba7846e",
+        "id": "b633ff75809199fd",
         "type": "tabs",
         "children": [
           {
-            "id": "29222601bafc8886",
+            "id": "3a0c9afcd524b531",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
+              }
             }
           },
           {
@@ -157,11 +165,43 @@
       "templater-obsidian:Templater": false,
       "canvas:Créer une nouvelle toile": false,
       "zk-prefixer:Créer une nouvelle note unique": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "29222601bafc8886",
+  "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+    "Software Security/02-10-2023 - Memory Corruption.md",
+    "Middleware/27-09-2023 -.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/04-10-2023 - Message Oriented Middleware.md",
+    "Middleware/04-10-2023 - Java Messaging System.md",
+    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+    "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
+    "Machine Learning/03-10-2023 - Clustering.md",
+    "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Rentrée.md",
+    "Readme.md",
+    "Templates/Algorithmique Template.md",
+    "Algorithmique/13-10-2023 -.md",
+    "Templates/Conception Logicielle Template.md",
+    "Templates/Gestion Comptable & financière Template.md",
+    "CS-semester 7/CS-S7-publish/docs/Algorithmique",
+    "CS-semester 7/CS-S7-publish/docs",
+    "CS-semester 7/CS-S7-publish",
+    "CS-semester 7",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925115937.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925090704.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925090651.png",
@@ -172,41 +212,10 @@
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925085608.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925084856.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925083854.png",
-    "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925083639.png",
     "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "CS-S7-publish/docs/Software Security/ressource/02-WebAttacks-XSS.pdf",
     "CS-S7-publish/docs/Software Security/ressource/01-WebAttacks-SQLI.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
-    "CS-S7-publish/docs/Software Security/ressource",
-    "CS-S7-publish/docs/Software Security/25-09-2023 - Cross-site request forgery.md",
-    "CS-S7-publish/docs/Software Security/18-09-2023 - Cross Site Scripting.md",
-    "CS-S7-publish/docs/Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "CS-S7-publish/docs/Software Security/02-10-2023 - Memory Corruption.md",
-    "CS-S7-publish/docs/Software Security",
-    "CS-S7-publish/docs/Middleware/ressource/Message Oriented Middleware (MOM).pdf",
-    "CS-S7-publish/docs/Middleware/ressource/JMS.pdf",
-    "CS-S7-publish/docs/Middleware/ressource/AppRepRMI-ENG.pdf",
-    "CS-S7-publish/docs/Middleware/27-09-2023 -.md",
-    "CS-S7-publish/docs/Middleware/20-09-2023 - More in depth study of RMI.md",
-    "CS-S7-publish/docs/Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "CS-S7-publish/docs/Middleware/13-09-2023 - Intro Java RMI.md",
-    "CS-S7-publish/docs/Middleware/04-10-2023 - Message Oriented Middleware.md",
-    "CS-S7-publish/docs/Middleware/04-10-2023 - Java Messaging System.md",
-    "CS-S7-publish/docs/Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
-    "CS-S7-publish/docs/Machine Learning/19-09-2023 - Arbre de décision.md",
-    "CS-S7-publish/docs/Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
-    "CS-S7-publish/docs/Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
-    "CS-S7-publish/docs/Machine Learning/03-10-2023 - Clustering.md",
-    "CS-S7-publish/docs/Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
-    "CS-S7-publish/docs/Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "CS-S7-publish/docs/Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "CS-S7-publish/docs/Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
-    "CS-S7-publish/docs/Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "CS-S7-publish/docs/Algorithmique/11-09-2023 - Introduction.md",
-    "CS-S7-publish/Software Security/25-09-2023 - Cross-site request forgery.md",
-    "CS-S7-publish/Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "CS-S7-publish/Software Security/18-09-2023 - Cross Site Scripting.md",
-    "CS-S7-publish/Software Security/02-10-2023 - Memory Corruption.md"
+    "CS-S7-publish/docs/Software Security/ressource/00-CoursSecuriteLogicielle.pdf"
   ]
 }

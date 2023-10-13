@@ -7,5 +7,5 @@
 
 ---
 
- <% await tp.file.move("/Machine Learning/" + tp.file.title) %>
+ <% await tp.file.move("CS-semester 7/CS-S7-publish/docs/Machine Learning/" + tp.file.title) %>
  <% tp.file.rename(tp.date.now(format = "DD-MM-YYYY") + " - ") %>

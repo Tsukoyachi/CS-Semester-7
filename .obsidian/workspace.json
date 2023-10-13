@@ -173,9 +173,9 @@
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925084856.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925083854.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925083639.png",
+    "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "CS-S7-publish/docs/Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "CS-S7-publish/docs/Software Security/ressource/01-WebAttacks-SQLI.pdf",
     "CS-S7-publish/docs/Software Security/ressource/00-CoursSecuriteLogicielle.pdf",
     "CS-S7-publish/docs/Software Security/ressource",
@@ -204,9 +204,9 @@
     "CS-S7-publish/docs/Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "CS-S7-publish/docs/Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "CS-S7-publish/docs/Algorithmique/11-09-2023 - Introduction.md",
-    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "CS-S7-publish/Software Security/25-09-2023 - Cross-site request forgery.md",
+    "CS-S7-publish/Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "CS-S7-publish/Software Security/18-09-2023 - Cross Site Scripting.md",
-    "CS-S7-publish/Software Security/11-09-2023 - Introduction et SQL Injection.md"
+    "CS-S7-publish/Software Security/02-10-2023 - Memory Corruption.md"
   ]
 }

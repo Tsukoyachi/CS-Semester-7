@@ -2,7 +2,7 @@
   "githubRepo": "CS-S7-publish",
   "githubToken": "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",
   "githubUserName": "Tsukoyachi",
-  "gardenBaseUrl": "",
+  "gardenBaseUrl": "https://cs-s7-publish.vercel.app/",
   "prHistory": [],
   "baseTheme": "dark",
   "theme": "{\"name\": \"default\", \"modes\": [\"dark\"]}",

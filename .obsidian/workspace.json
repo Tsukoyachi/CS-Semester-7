@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Readme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md",
+                "file": "Readme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/18-09-2023 - Cross Site Scripting.md"
+                "file": "Readme.md"
               }
             }
           },
@@ -171,13 +171,13 @@
   },
   "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "grep",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Algorithmique/11-09-2023 - Introduction.md",
     "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/02-10-2023 - Memory Corruption.md",
     "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
@@ -215,7 +215,6 @@
     "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
     "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf",
     "CS-S7-publish/docs/Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/01-WebAttacks-SQLI.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/00-CoursSecuriteLogicielle.pdf"
+    "CS-S7-publish/docs/Software Security/ressource/01-WebAttacks-SQLI.pdf"
   ]
 }

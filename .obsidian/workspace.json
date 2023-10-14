@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithmique/11-09-2023-Introduction.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algorithmique/11-09-2023-Introduction.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algorithmique/11-09-2023-Introduction.md",
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algorithmique/11-09-2023-Introduction.md"
+                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
               }
             }
           },
@@ -171,14 +171,8 @@
   },
   "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
-    "Readme.md",
-    "Algorithmique/11-09-2023-Introduction.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
-    "grep",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
-    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/02-10-2023 - Memory Corruption.md",
     "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
@@ -194,6 +188,12 @@
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Readme.md",
+    "grep",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Templates/Software Security Template.md",
     "Templates/Middleware Template.md",
     "Templates/Machine Learning Template.md",

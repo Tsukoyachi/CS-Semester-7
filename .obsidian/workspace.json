@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rentrée.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rentrée.md"
+                "file": "Machine Learning/03-10-2023 - Clustering.md"
               }
             }
           },
@@ -171,6 +171,7 @@
   },
   "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
+    "Rentrée.md",
     "Templates/Software Security Template.md",
     "Templates/Middleware Template.md",
     "Templates/Machine Learning Template.md",
@@ -196,7 +197,6 @@
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
-    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
     "grep",
     "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
     "CS-semester 7/CS-S7-publish/docs/Algorithmique",

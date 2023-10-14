@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Rentrée.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Rentrée.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md",
+                "file": "Rentrée.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/25-09-2023 - Cross-site request forgery.md"
+                "file": "Rentrée.md"
               }
             }
           },
@@ -171,6 +171,13 @@
   },
   "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
+    "Templates/Software Security Template.md",
+    "Templates/Middleware Template.md",
+    "Templates/Machine Learning Template.md",
+    "Templates/Gestion Comptable & financière Template.md",
+    "Templates/Conception Logicielle Template.md",
+    "Templates/Algorithmique Template.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/02-10-2023 - Memory Corruption.md",
@@ -190,14 +197,7 @@
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
-    "Algorithmique/11-09-2023 - Introduction.md",
-    "Readme.md",
     "grep",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Templates/Software Security Template.md",
-    "Templates/Middleware Template.md",
-    "Templates/Machine Learning Template.md",
-    "Templates/Gestion Comptable & financière Template.md",
     "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
     "CS-semester 7/CS-S7-publish/docs/Algorithmique",
     "CS-semester 7/CS-S7-publish/docs",

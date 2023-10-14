@@ -2,7 +2,7 @@
 dg-publish: "true"
 dg-home: "false"
 ---
- ---
+---
 
  Date de création : lundi 11 septembre 2023 13:26
  Matière : Algorithmique

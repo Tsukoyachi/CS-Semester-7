@@ -9,7 +9,7 @@
   "faviconPath": "",
   "noteSettingsIsInitialized": true,
   "siteName": "Digital Garden",
-  "slugifyEnabled": true,
+  "slugifyEnabled": false,
   "noteIconKey": "dg-note-icon",
   "defaultNoteIcon": "",
   "showNoteIconOnTitle": false,

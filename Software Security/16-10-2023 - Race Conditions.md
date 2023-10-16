@@ -36,6 +36,7 @@ Cela peut arriver sur n'importe quel système concurrent :
 - Les signaux
 ```
 
+## La mémoire partagée
 
 La mémoire partagées peut facilement mener à de la concurrence :
 - Les threads partagent tout l'espace mémoire
@@ -71,4 +72,13 @@ Ici le problème c'est la ligne `count++`, en effet même si cette ligne à l'ai
 Un simple cas de concurrence :
 - 2 thread lise la variable count et font tous les 2 count++ et on va donc rater une incrémentation (en passant de 0 à 2 par exemple).
 
+## Le système de fichier Unix
+
+![[Pasted image 20231016082230.png | center]]
+
+Ici si l'on ne revérifie pas la permission entre le if et le fopen il serait possible de modifier le fichier en le remplaçant par un pointer sur un autre fichier pour modifier un fichier auquel on a pas accès par exemple, potentiellement en utilisant le fait que l'on soit root sur ce programme par exemple.
+
+Si l'on prends l'exemple des fichiers temporaire,  il s'agit de fichier en général situé dans /tmp ou /var/tmp qui ne nécessite pas de droit particulier pour leur création et qui en général ont des noms facilement reconnaissable.
+
+Une attaque possible serait d'essayer de deviner le nom d'un fichier temporaire, de faire un `ln -s /etc/target fichier_tmp` qui va faire un lien symbolique entre notre fichier cible (/etc/target) et le fichier temporaire. Un programme victime qui voudrait créer le fichier_tmp nous ferait une copie de notre /etc/target. Et pour le nom du fichier temporaire si on ne le trouve pas du premier coup on peut le bruteforce !
 

@@ -13,9 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Software Security/16-10-2023 - Race Conditions.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "b19e5287f1a6be26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3508029e578983d2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Software Security/ressource/02-Vulns-RaceConditions.pdf"
               }
             }
           }
@@ -69,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5
+    "width": 416.5,
+    "collapsed": true
   },
   "right": {
     "id": "570b43c025aed349",
@@ -85,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Software Security/16-10-2023 - Race Conditions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md",
+                "file": "Software Security/16-10-2023 - Race Conditions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/02-10-2023 - Memory Corruption.md"
+                "file": "Software Security/16-10-2023 - Race Conditions.md"
               }
             }
           },
@@ -171,6 +188,10 @@
   },
   "active": "3a0c9afcd524b531",
   "lastOpenFiles": [
+    "Software Security/ressource/02-Vulns-RaceConditions.pdf",
+    "Software Security/16-10-2023 - Race Conditions.md",
+    "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
+    "Software Security/02-10-2023 - Memory Corruption.md",
     "Machine Learning/03-10-2023 - Clustering.md",
     "Rentrée.md",
     "Templates/Software Security Template.md",
@@ -182,7 +203,6 @@
     "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/18-09-2023 - Cross Site Scripting.md",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Software Security/02-10-2023 - Memory Corruption.md",
     "Middleware/27-09-2023 -.md",
     "Middleware/20-09-2023 - More in depth study of RMI.md",
     "Middleware/20-09-2023 - Advanced feature of RMI.md",
@@ -195,8 +215,6 @@
     "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "grep",
     "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
     "CS-semester 7/CS-S7-publish/docs/Algorithmique",
@@ -214,8 +232,6 @@
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925084856.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925083854.png",
     "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/02-WebAttacks-XSS.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/01-WebAttacks-SQLI.pdf"
+    "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf"
   ]
 }

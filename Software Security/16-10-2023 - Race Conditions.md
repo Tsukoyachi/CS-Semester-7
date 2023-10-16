@@ -80,5 +80,12 @@ Ici si l'on ne revérifie pas la permission entre le if et le fopen il serait po
 
 Si l'on prends l'exemple des fichiers temporaire,  il s'agit de fichier en général situé dans /tmp ou /var/tmp qui ne nécessite pas de droit particulier pour leur création et qui en général ont des noms facilement reconnaissable.
 
-Une attaque possible serait d'essayer de deviner le nom d'un fichier temporaire, de faire un `ln -s /etc/target fichier_tmp` qui va faire un lien symbolique entre notre fichier cible (/etc/target) et le fichier temporaire. Un programme victime qui voudrait créer le fichier_tmp nous ferait une copie de notre /etc/target. Et pour le nom du fichier temporaire si on ne le trouve pas du premier coup on peut le bruteforce !
+Une attaque possible serait d'essayer de deviner le nom d'un fichier temporaire, de faire un `ln -s /etc/target fichier_tmp` qui va faire un lien symbolique entre notre fichier cible (/etc/target) et le fichier temporaire. Un programme victime qui voudrait créer le fichier_tmp qui n'existe pas nous créerait le fichier /etc/target s'il est exécuté avec les permissions root (on aurait donc gagné la création d'un fichier sans en avoir les permissions dans un dossier sensible). Et pour le nom du fichier temporaire si on ne le trouve pas du premier coup on peut le bruteforce !
+
+Voici un résumé de mon explication:
+
+![[Pasted image 20231016083159.png | center]]
+
+Si vous pensiez que ce n'est pas encore grave, sachez que l'on peut faire pire que ça.
+Imaginons que l'on exécute un programme A via `execve()` sur un programme initial, il est possible d'en changer le contenu avec un programme B via un lien symbolique avant d'en exécuter le contenu. Ce qui nous offre l'exécution d'un programme B en **root** si le programme de base l'était car en effet execve() fait un setUid() avant d'en exécuter le contenu donc si le programme initial est exécuté en root, le execve() le sera aussi.
 

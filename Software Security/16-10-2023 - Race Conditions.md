@@ -37,6 +37,38 @@ Cela peut arriver sur n'importe quel système concurrent :
 ```
 
 
+La mémoire partagées peut facilement mener à de la concurrence :
+- Les threads partagent tout l'espace mémoire
+- Les processus peuvent partager des zone mémoire appelé région
 
+Dans ce cas, il faut utilisation des mécanismes de synchronisation :
+- locking, semaphores
+- Java :
+	- `synchronized` pour les classes et les méthodes qui peuvent être concurrente (modèle Monitor)
+	- type `Atomic` (java.util.concurrent.atomic.AtomicInteger, etc...)
+
+Mieux vaut éviter la mémoire partagée :
+- On peut utiliser un modèle "message-passing", il faudra quand même garder une bonne synchronisation !
+
+Un exemple simple :
+
+```Java
+
+public class Counter extends HttpServlet {
+	int count = 0;
+	public void doGet(HttpServletRequest in, HttpServletResponse out) {
+		out.setContentType("text/plain");
+		Printwriter p = out.getWriter();
+		count++;
+		p.println(...);
+		...
+	}
+}
+```
+
+Ici le problème c'est la ligne `count++`, en effet même si cette ligne à l'air atomic en réalité elle ne l'est pas.
+
+Un simple cas de concurrence :
+- 2 thread lise la variable count et font tous les 2 count++ et on va donc rater une incrémentation (en passant de 0 à 2 par exemple).
 
 

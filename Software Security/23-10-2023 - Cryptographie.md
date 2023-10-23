@@ -82,8 +82,33 @@ Il s'agit d'une méthode d'encryption où la même clef est utilisé pour l'encr
 
 ### Les approches pour l'encryption
 
-- Substitution Cipher
-	- Monoalphabetic Cipher
-		- Le principe pour celui-ci est de prendre chaque lettre et de la remplacer par une autre choisie arbitrairement (cf : Codage césar ou le chiffrement par décalage)
-		- Faiblesse : Analyse de fréquence d’occurrence des lettres (en français par exemple le "a" et le "e" apparaissent plus). Donc on va supposer que la lettre la plus présente dans le ciphertext sera un "e"...
-	- 
+#### Substitution Cipher
+
+##### Mono alphabetic Cipher :
+
+Le principe pour celui-ci est de prendre chaque lettre et de la remplacer par une autre choisie arbitrairement (cf : Codage césar ou le chiffrement par décalage)
+
+Faiblesse : Analyse de fréquence d’occurrence des lettres (en français par exemple le "a" et le "e" apparaissent plus). Donc on va supposer que la lettre la plus présente dans le cipher text sera un "e"...
+
+##### Poly alphabetic substitution cipher :	
+
+Ici le principe est encore de substituer une lettre par une autre mais cette fois-ci afin de contrer la faiblesse précédente, on va introduire une clé (Dans notre photo c'est "BAND") et chaque lettre de la clé correspond à un nombre de décalage (B = index 1 donc 1 décalage, R + 1 décalage = S).
+
+Ici la faiblesse précédente disparaît car par exemple les E ne sont pas tous encodé de la même façon.
+
+![[Pasted image 20231023083322.png | center]]
+
+#### Permutation Ciphers (ou Transposition Ciphers)
+
+Le principe et de modifier l'ordre des lettres est modifié sans changer leur valeur.
+La clé permet ici d'identifier une permutation.
+
+![[Pasted image 20231023084003.png | center]]
+
+#### Product Ciphers
+
+Ici on utilise une combinaison de permutations et de combinaisons. C'est les fondements de la cryptographie moderne.
+
+L'un des plus courants est le **Block Ciphers** qui utilise deux principes :
+- La condusion :
+La relation entre le plaintext P et le ciphertext C en terme d'analyse statistique doit être relativement complexe à exploiter au travers de la cryptograp

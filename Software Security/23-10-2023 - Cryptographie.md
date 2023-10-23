@@ -158,9 +158,27 @@ Ici on voit que ECB est beaucoup moins efficace que CBC parce qu'on arrive encor
 ![[Pasted image 20231023090038.png | center]]
 ![[Pasted image 20231023090048.png | center]]
 
+##### CFB Mode :
 
+![[Pasted image 20231023090343.png | center]]
 
+##### OFB Mode :
 
+![[Pasted image 20231023091011.png | center]]
+##### Counter (CTR) Mode 
 
+![[Pasted image 20231023090625.png | center]]
 
+L'idée est que même si on perd une partie du message, on a juste besoin de l'indice du block et on peut récupérer le plain text original.
 
+#### Petit retour sur le padding
+
+![[Pasted image 20231023090759.png | center]]
+
+En général utiliser du padding réduit l'efficacité d'un algorithme peu importe l'algorithme car ça ouvre la possibilité à des attaquants d'effectuer de la cryptanalyse.
+
+#### Les types d'attaques
+
+![[Pasted image 20231023091045.png | center]]
+
+Les 4 scénarios présentés ici sont beaucoup plus courant qu'on ne le croit. La deuxième attaque a par exemple historiquement été utilisé lors de la seconde 

@@ -60,6 +60,30 @@ Il y a 3 approches principales :
 ```ad-info
 title: Encryption
 
-L'encryption permet de transformer la donnée (aussi appelée plaintexts ou cleartexts)
+L'encryption permet de transformer la donnée (aussi appelée plaintexts ou cleartexts) en un ciphertext.
 
+Le ciphertext ne peut pas être lu par quelqu'un ne possèdant pas la clé de décryptage.
+
+L'encryption est un mécanisme permettant d'assurer la confidentialité.
+
+Principe de Kerckhoffs (1883) :
+- La sécurité d'un système doit uniquement reposer sur l'ignorance de la clé.
 ```
+
+
+### La cryptographie par clé symétrique
+
+![[Pasted image 20231023082435.png | center]]
+
+Il s'agit d'une méthode d'encryption où la même clef est utilisé pour l'encryption et la décryption.
+
+**Le problème majeur de l'encryption par clé symétrique :** L'échange de la clé.
+- En effet la clé doit être échangée entre 2 personnes souhaitant communiquer entre elles.
+
+### Les approches pour l'encryption
+
+- Substitution Cipher
+	- Monoalphabetic Cipher
+		- Le principe pour celui-ci est de prendre chaque lettre et de la remplacer par une autre choisie arbitrairement (cf : Codage césar ou le chiffrement par décalage)
+		- Faiblesse : Analyse de fréquence d’occurrence des lettres (en français par exemple le "a" et le "e" apparaissent plus). Donc on va supposer que la lettre la plus présente dans le ciphertext sera un "e"...
+	- 

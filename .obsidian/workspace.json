@@ -188,6 +188,7 @@
   },
   "active": "a561edfbb91fab28",
   "lastOpenFiles": [
+    "Software Security/ressource/Pasted image 20231023082435.png",
     "Software Security/ressource/03-ArchiCryptoControleAccesv2-Crypto.pdf",
     "Software Security/23-10-2023 - Cryptographie.md",
     "Software Security/16-10-2023 - Race Conditions.md",
@@ -232,7 +233,6 @@
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925090546.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925085637.png",
     "CS-S7-publish/docs/Software Security/ressource/Pasted image 20230925085608.png",
-    "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
-    "CS-S7-publish/docs/Software Security/ressource/03-WebAttacks-CSRF.pdf"
+    "CS-S7-publish/docs/Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf"
   ]
 }

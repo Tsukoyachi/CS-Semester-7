@@ -135,4 +135,32 @@ Il a été développé par IBM et a été adopté en 1975.
 Cet algorithme utilise le schéma de [Feistel](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_Feistel) :
 ![[Pasted image 20231023084958.png | center]]
 
-Le problème c'est qu'un ordinateur avec 1024 processeurs tournant à 1 GHz peut explorer toutes les clé en 1 jour.
+Dans les slides ont a deux slides parlant de l'utilisation du schéma de Feistel dans l'algorithme DES, je les copie ici :
+![[Pasted image 20231023085449.png | center]]
+![[Pasted image 20231023085500.png | center]]
+
+Le problème c'est qu'un ordinateur avec 1024 processeurs tournant à 1 GHz peut explorer toutes les clé en un jour. Donc DES n'est plus sécurisé, en général on va surtout utilise Triple DES (DED ou EDE).
+
+Le nouveau standard est : AES - Advanced Encryption Standard (2000) -> 128-256 bit keys.
+
+#### Variantes de DES
+
+![[Pasted image 20231023085558.png | center]]
+
+Toutes les variantes ne se valent pas :
+![[Pasted image 20231023085639.png | center]]
+![[Pasted image 20231023085645.png]]![[Pasted image 20231023085653.png]]
+
+Ici on voit que ECB est beaucoup moins efficace que CBC parce qu'on arrive encore à tirer des informations du plain text via le cipher text.
+
+##### CBC Mode
+
+![[Pasted image 20231023090038.png | center]]
+![[Pasted image 20231023090048.png | center]]
+
+
+
+
+
+
+

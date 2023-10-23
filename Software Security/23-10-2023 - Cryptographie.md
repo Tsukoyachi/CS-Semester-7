@@ -181,4 +181,4 @@ En général utiliser du padding réduit l'efficacité d'un algorithme peu impor
 
 ![[Pasted image 20231023091045.png | center]]
 
-Les 4 scénarios présentés ici sont beaucoup plus courant qu'on ne le croit. La deuxième attaque a par exemple historiquement été utilisé lors de la seconde 
+Les 4 scénarios présentés ici sont beaucoup plus courant qu'on ne le croit. La deuxième attaque a par exemple historiquement été utilisé lors de la seconde guerre mondiale pour donner un ordre d'idée.

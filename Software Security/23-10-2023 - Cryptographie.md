@@ -105,10 +105,34 @@ La clé permet ici d'identifier une permutation.
 
 ![[Pasted image 20231023084003.png | center]]
 
-#### Product Ciphers
+#### Product Ciphers (Et plus précisément les Block Ciphers)
 
 Ici on utilise une combinaison de permutations et de combinaisons. C'est les fondements de la cryptographie moderne.
 
 L'un des plus courants est le **Block Ciphers** qui utilise deux principes :
-- La condusion :
-La relation entre le plaintext P et le ciphertext C en terme d'analyse statistique doit être relativement complexe à exploiter au travers de la cryptograp
+
+- La **confusion** :
+
+La relation entre le plain text P et le cipher text C en terme d'analyse statistique doit être relativement complexe à exploiter au travers de la cryptanalyse.
+
+La technique de base : **substitution**
+
+- La **diffusion** :
+
+Chaque symbole du plain text P et/ou de la clé K doit influencer plusieurs symbole du cipher text C. 
+La redondance du plain text doit être redistribué sur un cipher text.
+
+La technique de base : **permutation (transposition)**.
+
+### Quelques algorithmes qui découlent du block cipher
+
+#### DES : Data Encryption Standard
+
+Il a été développé par IBM et a été adopté en 1975.
+- Les block cipher font 64 bits
+- La clé fait 56 bit (72 057 594 037 927 936 keys, 2⁵⁶ keys)
+
+Cet algorithme utilise le schéma de [Feistel](https://fr.wikipedia.org/wiki/R%C3%A9seau_de_Feistel) :
+![[Pasted image 20231023084958.png | center]]
+
+Le problème c'est qu'un ordinateur avec 1024 processeurs tournant à 1 GHz peut explorer toutes les clé en 1 jour.

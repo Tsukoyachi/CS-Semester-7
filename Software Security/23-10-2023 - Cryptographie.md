@@ -225,3 +225,12 @@ On parle de MAC quand un calcul dépend d'une informations secrète (Message Aut
 
 - Une encryption basé sur la difficulté de retrouver l'inverse d'une solution à un problème mathématique.
 	- Bien plus coûteux qu'une encryption par clé symétrique.
+
+- Diffie-Hellman (1977) :
+	- Secret sharing : $(g^{a})^{b}=(g^{b})^{a}=g^{ab}$ mod p
+- RSA : Rivest-Shamir-Adleman (1978) :
+	- Solution standard aujourd'hui
+	- $E_{KP}(P)=M^e$ mod n et $D_{KS}(C)=M^d$ mod n
+	- Les clés KP=(e,n) et KS = (d,n) sont connecté par une relation mathématique.
+
+####

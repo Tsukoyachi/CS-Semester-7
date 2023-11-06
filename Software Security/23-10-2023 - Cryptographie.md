@@ -14,6 +14,7 @@ dg-publish: "true"
 
 ---
 
+Pour ce cours, les notes d'arnaud sont certainement plus appropriée parce qu'elles sont détaillée. Il a plus d'expérience que moi dans ce domaine et il s'est plus appliqué sur ce cours.
 ## Introduction
 
 Les contrôles d'accès et la cryptographie ont pour objectif la triade CIA, on ne parle pas ici de la CIA que l'on connait tous mais d'un acronyme pour **Confidentiality, Integrity, Availability** :
@@ -252,3 +253,4 @@ Après no joke y a déjà des implem safe donc faut pas trop s'amuser à refaire
 ### Signature digitale
 
 ![[Pasted image 20231106085110.png]]
+![[Pasted image 20231106085122.png]]

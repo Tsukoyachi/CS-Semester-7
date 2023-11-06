@@ -233,4 +233,22 @@ On parle de MAC quand un calcul dépend d'une informations secrète (Message Aut
 	- $E_{KP}(P)=M^e$ mod n et $D_{KS}(C)=M^d$ mod n
 	- Les clés KP=(e,n) et KS = (d,n) sont connecté par une relation mathématique.
 
-####
+#### Diffie-Hellman :
+
+![[Pasted image 20231106084637.png]]
+#Todo Le prod a dit de la merde faut que je check de mon côté
+
+#### RSA : Inversibilité 
+
+![[Pasted image 20231106084709.png]]
+
+En gros c'est safe parce que c'est complexe mais ça fonctionne bien.
+
+Pour l'implementation faut respecter ça :
+![[Pasted image 20231106085031.png]]
+
+Après no joke y a déjà des implem safe donc faut pas trop s'amuser à refaire ça je pense.
+
+### Signature digitale
+
+![[Pasted image 20231106085110.png]]

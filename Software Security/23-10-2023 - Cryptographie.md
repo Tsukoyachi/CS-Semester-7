@@ -194,3 +194,8 @@ Une **sécurité prouvable** est équivalente à prouver que compromettre le sys
 
 La **sécurité calculable** (sécurité pratique) est égale à dire qu'un système est sécurisé face à un attaquant possédant un montant prédéterminé de temps et de ressources.
 
+![[Pasted image 20231106081747.png]]
+#Todo A rattraper parce que j'ai pas vraiment écouté cette slide
+
+### Fonction Hash
+

@@ -182,3 +182,15 @@ En général utiliser du padding réduit l'efficacité d'un algorithme peu impor
 ![[Pasted image 20231023091045.png | center]]
 
 Les 4 scénarios présentés ici sont beaucoup plus courant qu'on ne le croit. La deuxième attaque a par exemple historiquement été utilisé lors de la seconde guerre mondiale pour donner un ordre d'idée.
+
+#### L'évaluation de la sécurité
+
+**La sécurité inconditionnelle** est équivalente à avoir un système sécurisé même face à un adversaire avec un montant illimité de temps et de ressources. 
+Dans ce cas, y a t'il assez d'informations pour compromettre le système de sécurité ?
+
+Un système sera dit **sécurisé au travers d'une complexité théorique** si on peut prouver que le système est sécurisé face à un adversaire avec des capacité polynomiale.
+
+Une **sécurité prouvable** est équivalente à prouver que compromettre le système de sécurité est équivalent à résoudre un problème dit "difficile" (par exemple : factoriser un grand nombre entier, ou un logarithme discret).
+
+La **sécurité calculable** (sécurité pratique) est égale à dire qu'un système est sécurisé face à un attaquant possédant un montant prédéterminé de temps et de ressources.
+

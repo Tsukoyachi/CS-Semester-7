@@ -199,3 +199,29 @@ La **sécurité calculable** (sécurité pratique) est égale à dire qu'un syst
 
 ### Fonction Hash
 
+Une fonction de hash lie un message M avec un message d'une longueur non déterminé que l'on nommera h(M) ou $\{M\}^ĥ$ qui a une longueur (généralement petite).
+
+L'usage le plus courant des fonctions de hash est le stockage de mot de passe.
+
+Les algorithmes les plus courants :
+- MD5 (**NE PAS UTILISER !**)
+- SHA-1 (**NE PAS UTILISER !**)
+- SHA-256
+- bcrypt
+- scrypt
+- Argon2
+- ...
+
+3 propriétés :
+- Preimage resistance : Avec un output K donné, il est mathématiquement "difficile" de retrouver le message M tel que h(M) = K.
+- $2^{nd}$ Preimage resistance : Avec un M donné, il est mathématiquement "difficile" de retrouver M' distinct tel que h(M) = h(M') = K.
+- Collision-free : Il est mathématiquement "difficile" de retrouver M et M' distinct tel que h(M) = h(M').
+
+On parle de MAC quand un calcul dépend d'une informations secrète (Message Authentification Code).
+
+### La cryptographie par clé asymétrique
+
+![[Pasted image 20231106082912.png]]
+
+- Une encryption basé sur la difficulté de retrouver l'inverse d'une solution à un problème mathématique.
+	- Bien plus coûteux qu'une encryption par clé symétrique.

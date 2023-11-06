@@ -254,3 +254,5 @@ Après no joke y a déjà des implem safe donc faut pas trop s'amuser à refaire
 
 ![[Pasted image 20231106085110.png]]
 ![[Pasted image 20231106085122.png]]
+
+La suite j'assume j'ai pas écouté, faudra que je revienne dessus mais ça sera probablement pas dans mes notes.

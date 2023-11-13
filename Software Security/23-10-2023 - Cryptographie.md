@@ -256,3 +256,20 @@ Après no joke y a déjà des implem safe donc faut pas trop s'amuser à refaire
 ![[Pasted image 20231106085122.png]]
 
 La suite j'assume j'ai pas écouté, faudra que je revienne dessus mais ça sera probablement pas dans mes notes.
+
+### Contre-mesures et vulnérabilités
+
+Imaginons que l'on n'autorise que 3 tentatives échoués de connexion avant de bloquer le compte pour empêcher le brute force, quelle nouvelles vulnérabilités nous introduisons ?
+
+- **Attaque par déni de service**
+Si une contre-mesure repose sur du nouveau codes, des bugs dans ce nouveau code peuvent suggérer :
+- Qu'il est inefficace
+- Encore pire, qu'il introduit de nouvelles faiblesses (exemple de Witty worm qui est apparu en Mars 2004 qui a exploité un logiciel de sécurité de l'Internet Security System (ISS))
+
+#### Caveat : Insécurités en cryptographie
+- SSH devait apporter de la sécurité, en particulier contre les écoutes sur le réseau mais est la source de nouvelles vulnérabilités.
+- La cryptographie n'est pas la source de nouvelles vulnérabilités, et ne peut pas résoudre/empếcher ses vulnérabilités :
+	- Erreur d'implémentation du protocol (WEP pour le Wifi)
+	- Erreur de programmation (buffer overflow)
+	- Erreur de distribution (trojan)
+- Bruce Schneier : "Pour le moment l'encryption est le lien le plus puissant que nous ayons, tout le reste est pire : logiciel, réseau, personnes"

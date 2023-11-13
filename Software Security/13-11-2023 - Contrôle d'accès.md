@@ -66,5 +66,16 @@ Capacité :
 ![[Pasted image 20231113083046.png]]
 
 ### Contrôle d'accès en résumé
+
 Un contrôle d'accès utilise un gardien (reference monitor)
-- Vérification des permissions : <user info, action>-> oui 
+- Vérification des permissions : <info utilisateur, action> -> oui/non 
+- Important : **Il ne doit pas y avoir de moyen de contourner cette vérification.**
+
+Matrice de contrôle d'accès :
+- ACL vs capacité
+- Avantage et désavantages dans les deux cas.
+
+Contrôle d'accès basé sur les rôles :
+- Ici il faut utilisé le groupe/rôle à la places des "infos utilisateurs", peuvent utiliser une hiérarchie de groupe.
+
+### Contrôle d'accès s

@@ -110,3 +110,52 @@ Défense en profondeur :
 Keep It Simple (rester simple)
 
 #### Least Privilege
+
+Un privilège est l'a possibilité d'accéder ou de modifier une ressource.
+
+Il faut d'abord compartimenter et isoler le système afin de limiter les intéractions entre ses compartiments.
+
+Un module du système ne devra alors qu'avoir les privilèges minimum dont il a besoin pour les actions voulues.
+
+##### L'isolation entre les processus
+
+Les processus dans l'OS :
+- Un processus peut avoir des fichiers d'accès, des sockets réseau, ...
+	- Permissions données par rapport à l'id utilisateur
+- Deux processus avec le même id utilisateur on les même permissions.
+
+Processus et privilèges :
+- Compartiments définis par l'id utilisateur
+- Privilèges définis par les actions autorisés sur les ressources du système.
+
+
+#### Exemple : Mail Agent
+
+Prérequis :
+- Recevoir et envoyer des emails sur le réseau extérieur
+- Placer les mails arrivant dans la boite mail utilisateur locale.
+
+Sendmail :
+- Unix traditionel
+- Design monolitique
+- Source historique de plusieurs vulnérabilités.
+
+Qmail :
+- Design compartimenté
+
+##### Le design de Qmail
+
+Agent de transfert de mail (MTA en anglais)
+- Remplacement à Sendmail
+
+Isolation fonctionnelle basé sur l'isolation de l'OS
+- Modules séparé qui tourne comme des "utilisateurs" séparés
+- Chaque utilisateur n'a accès qu'à des ressources spécifiques
+
+Least privilege :
+- Privilèges minimaux pour chaque id utilisateur
+- Seulement un programme "setuid"
+	- setuid permet à un programme de tourner en tant que plusieurs utilisateur (donc possiblement root)
+- Seulement un programme "root"
+	- Le programme root à tous les privilèges
+

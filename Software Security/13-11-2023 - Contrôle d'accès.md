@@ -32,7 +32,7 @@ On peut modéliser cela via **une matrice de contrôle d'accès** :
 ### Rôles (aka Groupes)
 
 Un rôle correspond à un ensemble d'utilisateur.
-- Admnistrateur, Sur-utilisateur, Utilisateur, Invité,...
+- Administrateur, Sur-utilisateur, Utilisateur, Invité,...
 
 On peut assigner des permissions aux rôles, chaque utilisateur obtient des permissions.
 
@@ -51,6 +51,20 @@ Ce schéma résume bien le workflow d'un contrôle d'accès par rôle. Un ou plu
 
 #### Concepts d'implémentation
 
+Ici on voit deux concepts, celui d'implémentation par ACL et celui de capacité d'un utilisateur.
+
+On possède une list de contrôle d'accès (ACL en anglais)
+- Elle va permettre de stocker les colonnes de la matrice de contrôle d'accès avec les ressources.
 ![[Pasted image 20231113082135.png]]
 
-On possède une list de contrôle d'accès ()
+Capacité :
+- Un utilisateur aura un "ticket" pour chaque ressource
+- 2 variantes
+	- Stocker les lignes de la matrice avec l'utilisateur, sous contrôle de l'OS
+	- Un ticket non modifiable (un ticket signé par exemple, cf [[23-10-2023 - Cryptographie]]) en espace utilisateur.
+
+![[Pasted image 20231113083046.png]]
+
+### Contrôle d'accès en résumé
+Un contrôle d'accès utilise un gardien (reference monitor)
+- Vérification des permissions : <user info, action>-> oui 

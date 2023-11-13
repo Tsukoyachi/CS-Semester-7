@@ -78,4 +78,35 @@ Matrice de contrôle d'accès :
 Contrôle d'accès basé sur les rôles :
 - Ici il faut utilisé le groupe/rôle à la places des "infos utilisateurs", peuvent utiliser une hiérarchie de groupe.
 
-### Contrôle d'accès s
+### Contrôle d'accès sous Linux
+
+Un processus possède l'id utilisateur.
+- Il l'obtient lors du processus de création.
+	- Ensemble de permissions limités
+	- Id spécial pour le rôle "root"
+		- Toutes les permissions sont données
+- Les fichiers ont une ACL
+	- Donne des permissions à certains id utilisateur
+	- Owner, Group, Other
+
+Chaque fichier possède un utilisateur et un groupe. Les permissions sont données par l'owner.
+- Lire, écrire, exécuter
+- Owner, Group, Other
+- Représenté par un vecteur de 4 valeur octale
+
+Seulement l'owner et le root peuvent modifier les permissions.
+- Cette permission ne peut pas être déléguée ou partagée.
+
+Bits Setid - Expliqué dans quelques slides.
+
+### Principes de designs sécurisés
+
+Compartmentalization :
+- Principe de "Least privilege" (le moins de privilège)
+-  Isolation
+Défense en profondeur :
+- Utilisé plus qu'un système de sécurité
+- Échouer de façon sécurisé
+Keep It Simple (rester simple)
+
+#### Least Privilege

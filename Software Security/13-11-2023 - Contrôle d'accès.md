@@ -163,3 +163,30 @@ Least privilege :
 
 ### Unix : Id utilisateur effectif pour un processus (EUID)
 
+![[Pasted image 20231120080542.png]]
+![[Pasted image 20231120080601.png]]
+![[Pasted image 20231120080609.png]]
+![[Pasted image 20231120080620.png]]
+![[Pasted image 20231120080627.png]]
+![[Pasted image 20231120080636.png]]
+
+### SELinux
+
+C'est une distribution Linux qui a été créé par un groupe de recherche de la NSA en collaboration avec la Secure Computing Corporation.
+
+Basé sur une architecture forte et flexible de contrôle d'accès obligatoire basée sur l'application de type, un mécanisme développé pour la première fois pour le système LOCK.
+
+Plus tard, son architecture a été renforcé et renommé Flask.
+
+SELinux est un exemple de comment le MAC peut être ajouté à Linux :
+	En confinant les actions au processus.
+	Et en ajoutant un processus super utilisateur.
+
+Les mécanismes de sécurité implémenté dans le système offre un support flexible pour une large variété de politique de sécurité.
+
+## Authentification
+
+Ce que je sais : mot de passe, question secrète, clé secrète.
+Ce que je possède : smartcard, carte bancaire, clé RSA, téléphone portable.
+Ce que je suis : physique (empreinte digitale, iris, veins, visage, voix, ...) ou comportement (signature, geste, ...) 
+

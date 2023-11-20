@@ -20,6 +20,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "f4c9b17fa79e9e5b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "31ab4eefb75471f1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Software Security/ressource/03-ArchiControleAccesv2.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -172,24 +188,23 @@
   },
   "active": "e22e6093ab2a564f",
   "lastOpenFiles": [
+    "Software Security/ressource/03-ArchiControleAccesv2.pdf",
+    "Software Security/13-11-2023 - Contrôle d'accès.md",
+    "Software Security/ressource/Pasted image 20231120080636.png",
+    "Software Security/ressource/Pasted image 20231120080627.png",
+    "Software Security/ressource/Pasted image 20231120080620.png",
+    "Software Security/ressource/Pasted image 20231120080609.png",
+    "Software Security/ressource/Pasted image 20231120080601.png",
+    "Software Security/ressource/Pasted image 20231120080542.png",
+    "Software Security/ressource/03-ArchiCryptoControleAccesv2-Crypto.pdf",
     "Software Security/ressource/Pasted image 20231113090224.png",
     "Software Security/ressource/Pasted image 20231113083046.png",
     "Software Security/23-10-2023 - Cryptographie.md",
-    "Software Security/13-11-2023 - Contrôle d'accès.md",
     "Software Security/ressource/Pasted image 20231113082135.png",
     "Software Security/ressource/Pasted image 20231113081938.png",
-    "Software Security/ressource/Pasted image 20231113081909.png",
-    "Software Security/ressource/Pasted image 20231113081606.png",
-    "Software Security/ressource/Pasted image 20231113081119.png",
-    "Software Security/ressource/03-ArchiControleAccesv2.pdf",
-    "Software Security/ressource/03-ArchiCryptoControleAccesv2-Crypto.pdf",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Software Security/ressource/Pasted image 20231106085122.png",
-    "Software Security/ressource/Pasted image 20231106085110.png",
-    "Software Security/ressource/Pasted image 20231106085031.png",
-    "Software Security/ressource/Pasted image 20231106084709.png",
     "Middleware/27-09-2023 - Distribution objet RMI.md",
     "Software Security/16-10-2023 - Race Conditions.md",
     "Software Security/ressource/02-Vulns-RaceConditions.pdf",

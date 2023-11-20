@@ -187,6 +187,29 @@ Les mécanismes de sécurité implémenté dans le système offre un support fle
 ## Authentification
 
 Ce que je sais : mot de passe, question secrète, clé secrète.
-Ce que je possède : smartcard, carte bancaire, clé RSA, téléphone portable.
+Ce que je possède : carte à puce, carte bancaire, clé RSA, téléphone portable.
 Ce que je suis : physique (empreinte digitale, iris, veins, visage, voix, ...) ou comportement (signature, geste, ...) 
+
+L'association de ses méthodes d'authentification les renforce, par exemple avec l'authentification à double facteur (2FA) qui en général demande quelque chose que l'on connais (des identifiants) et que l'on possède (le téléphone portable avec un code par sms ou une requête à approuver).
+
+### Mot de passe
+
+Il s'agit de quelque chose de strictement personnel, difficile à trouver mais simple à retenir (**Ne surtout pas l'écrire quelque part !**).
+
+Possède en général un nombre minimum de caractères et/ou des symboles précis requis (1 lettre minuscule/majuscule, 1 chiffre, 1 symbole, ...).
+
+Et ne doit pas correspondre à un mot du dictionnaire.
+
+Il faut éviter :
+- Des noms/prénoms de proche
+- Numéro de téléphone portable
+- Nos centres d'intérêts
+
+Dans l'idéal il doit être changé périodiquement.
+
+Une méthode efficace est la méthode de la phrase clé où l'on s'inspire s'une citation/expression/titre de film/... et l'on en dérive un mot de passe efficace est dont on se souviendra efficacement.
+
+![[Pasted image 20231120081946.png]]
+
+
 

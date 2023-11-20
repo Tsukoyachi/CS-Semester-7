@@ -113,3 +113,4 @@ Il faudra aussi probablement un débugger et un assembler pour modifier le code 
 
 ![[Pasted image 20231120090416.png]]
 
+![[Pasted image 20231120090421.png]]

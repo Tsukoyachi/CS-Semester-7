@@ -155,7 +155,11 @@ Isolation fonctionnelle basé sur l'isolation de l'OS
 Least privilege :
 - Privilèges minimaux pour chaque id utilisateur
 - Seulement un programme "setuid"
-	- setuid permet à un programme de tourner en tant que plusieurs utilisateur (donc possiblement root)
+	- setuid permet à un programme de changer de user id et donc de tourner en tant qu'un autre utilisateur
 - Seulement un programme "root"
 	- Le programme root à tous les privilèges
+
+![[Pasted image 20231113090224.png]]
+
+### Unix : Id utilisateur effectif pour un processus (EUID)
 

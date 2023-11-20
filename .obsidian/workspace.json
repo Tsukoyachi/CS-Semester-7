@@ -20,22 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "1af78af5704164ca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "36abb446a0a4b163",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Software Security/ressource/03-ArchiControleAccesv2.pdf"
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -188,6 +172,7 @@
   },
   "active": "e22e6093ab2a564f",
   "lastOpenFiles": [
+    "Software Security/ressource/Pasted image 20231113090224.png",
     "Software Security/ressource/Pasted image 20231113083046.png",
     "Software Security/23-10-2023 - Cryptographie.md",
     "Software Security/13-11-2023 - Contrôle d'accès.md",
@@ -205,7 +190,6 @@
     "Software Security/ressource/Pasted image 20231106085110.png",
     "Software Security/ressource/Pasted image 20231106085031.png",
     "Software Security/ressource/Pasted image 20231106084709.png",
-    "Software Security/ressource/Pasted image 20231106084637.png",
     "Middleware/27-09-2023 - Distribution objet RMI.md",
     "Software Security/16-10-2023 - Race Conditions.md",
     "Software Security/ressource/02-Vulns-RaceConditions.pdf",

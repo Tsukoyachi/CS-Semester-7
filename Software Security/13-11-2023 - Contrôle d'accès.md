@@ -245,5 +245,24 @@ C'est un exemple d'authentification par objet que l'on possède. C'est une méth
 
 L'idée est d'avoir un objet portable/léger que l'on puisse transporter avec nous et qui permette de nous identifier (donc on ne la donne à personne).
 
-La carte permet de stocker un ou plusieurs secret et protéger cette donnée pour en empêcher la lecture quand on ne souhaite pas s'authentifier quelque part..
+La carte permet de stocker un ou plusieurs secret et protéger cette donnée pour en empêcher la lecture quand on ne souhaite pas s'authentifier quelque part.
+
+C'est un objet à très bas coût certains modèles vont coûter entre 1 et 5€ et d'autre vont coûter entrer 10 et 50 centimes.
+
+Mais ces cartes ne peuvent pas fonctionner seules et requièrent :
+- Un lecteur de carte pour fournir de l'énergie
+- Une horloge
+- Et un lien de communication.
+
+![[Pasted image 20231120083633.png]]
+
+### Biométrique 
+
+Le but est d'avoir une méthode d'authentification que l'utilisateur ne risque pas d'oublier. D'ailleurs certains sont bien implémenté, par exemple le face id et le fingerprints.
+
+Le problème est que le facteur biométrique peut être volé :
+- On peut prendre une photo de quelqu'un (certains téléphone ne reconnaitrons pas la photo comme un visage mais certains modèle si)
+- On peut récupérer l'empreinte de quelqu'un sur un objet.
+
+La donnée devrait rester sous le contrôle de son propriétaire (ex: carte à puce), pour les données biométrique ce n'est pas le cas.
 

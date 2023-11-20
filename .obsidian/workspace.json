@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/13-11-2023 - Contrôle d'accès.md",
+                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "f4c9b17fa79e9e5b",
+        "id": "16ec6af24043ef48",
         "type": "tabs",
         "children": [
           {
-            "id": "31ab4eefb75471f1",
+            "id": "384ad2cf83207b64",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Software Security/ressource/03-ArchiControleAccesv2.pdf"
+                "file": "Software Security/ressource/04-SDLC-StaticAnalysis.pdf"
               }
             }
           }
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/13-11-2023 - Contrôle d'accès.md",
+                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/13-11-2023 - Contrôle d'accès.md",
+                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/13-11-2023 - Contrôle d'accès.md"
+                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md"
               }
             }
           },
@@ -188,9 +188,13 @@
   },
   "active": "e22e6093ab2a564f",
   "lastOpenFiles": [
-    "Software Security/ressource/Pasted image 20231120083008.png",
-    "Software Security/ressource/03-ArchiControleAccesv2.pdf",
+    "Software Security/ressource/Pasted image 20231120084320.png",
+    "Software Security/ressource/04-SDLC-StaticAnalysis.pdf",
+    "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
     "Software Security/13-11-2023 - Contrôle d'accès.md",
+    "Software Security/ressource/03-ArchiControleAccesv2.pdf",
+    "Software Security/ressource/Pasted image 20231120083633.png",
+    "Software Security/ressource/Pasted image 20231120083008.png",
     "Software Security/ressource/Pasted image 20231120082059.png",
     "Software Security/ressource/Pasted image 20231120081946.png",
     "Software Security/ressource/Pasted image 20231120080636.png",
@@ -200,8 +204,6 @@
     "Software Security/ressource/Pasted image 20231120080601.png",
     "Software Security/ressource/Pasted image 20231120080542.png",
     "Software Security/ressource/03-ArchiCryptoControleAccesv2-Crypto.pdf",
-    "Software Security/ressource/Pasted image 20231113090224.png",
-    "Software Security/ressource/Pasted image 20231113083046.png",
     "Software Security/23-10-2023 - Cryptographie.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
@@ -227,12 +229,10 @@
     "Middleware/13-09-2023 - Intro Java RMI.md",
     "Middleware/04-10-2023 - Message Oriented Middleware.md",
     "Middleware/04-10-2023 - Java Messaging System.md",
-    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
     "grep",
     "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
     "CS-semester 7/CS-S7-publish/docs/Algorithmique",
     "CS-semester 7/CS-S7-publish/docs",
-    "CS-semester 7/CS-S7-publish",
-    "CS-semester 7"
+    "CS-semester 7/CS-S7-publish"
   ]
 }

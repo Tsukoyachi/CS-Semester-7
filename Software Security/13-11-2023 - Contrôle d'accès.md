@@ -211,5 +211,39 @@ Une méthode efficace est la méthode de la phrase clé où l'on s'inspire s'une
 
 ![[Pasted image 20231120081946.png]]
 
+### L'authentification par token (et autorisation)
 
+On a 4 grandes méthode pour cela :
+
+Kerberos
+- single domain sign-on (SDSSO) protocol
+- Utilise la cryptographie par clé secrète
+- Les clients demandes un ticket d'authentification (TGT) au centre de distribution des clé (KDC)
+
+OAuth2
+- Un protocole d'authentification web
+- Délégation : Autorise quelques tiers à accéder et modifier la donnée que je possède sur un web service donné sans donner mes credentials.
+- Il faut pour cela un serveur centralisé ou une base de donnée.
+
+OpenID-Connect
+- multi domain single-sign-on protocol (MDSSO)
+- Construit par dessus OAuth2
+
+JWT (JSON Web Tokens)
+- Standard ouvert pour les token basé sur le JSON
+- Permet l'authentification et l'autorisation : transmis de façon sécurisé à un client non vérifié.
+- Léger et facile à générer/valider
+- Ne requiert pas de serveur centralisé ou de base de donnée.
+- Par contre n'offre pas de système de révocation ou de raffraichissement des token.
+![[Pasted image 20231120083008.png]]
+
+Théoriquement JWT peut permettre d'étendre OAuths2 et de se connecter à un serveur l'utilisant.
+
+### Smartcard (carte à puce)
+
+C'est un exemple d'authentification par objet que l'on possède. C'est une méthode qui existe depuis les années 70.
+
+L'idée est d'avoir un objet portable/léger que l'on puisse transporter avec nous et qui permette de nous identifier (donc on ne la donne à personne).
+
+La carte permet de stocker un ou plusieurs secret et protéger cette donnée pour en empêcher la lecture quand on ne souhaite pas s'authentifier quelque part..
 

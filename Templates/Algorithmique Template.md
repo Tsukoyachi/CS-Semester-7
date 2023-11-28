@@ -1,6 +1,4 @@
----
-dg-publish: "false"
----
+
 ---
 
  Date de création : <% tp.date.now(format = "dddd DD MMMM yyyy HH:mm") %>

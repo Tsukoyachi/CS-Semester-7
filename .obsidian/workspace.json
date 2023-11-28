@@ -4,34 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "74c36da9339b4736",
+        "id": "fb72d5494de87227",
         "type": "tabs",
         "children": [
           {
-            "id": "e22e6093ab2a564f",
+            "id": "07b0a11329b2e326",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "16ec6af24043ef48",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "384ad2cf83207b64",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Software Security/ressource/04-SDLC-StaticAnalysis.pdf"
               }
             }
           }
@@ -85,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 416.5,
-    "collapsed": true
+    "width": 416.5
   },
   "right": {
     "id": "570b43c025aed349",
@@ -102,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
+                "file": "Machine Learning/03-10-2023 - Clustering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Software Security/20-11-2023 - Cycle de développement sécurisé.md"
+                "file": "Machine Learning/03-10-2023 - Clustering.md"
               }
             }
           },
@@ -179,15 +162,41 @@
       "daily-notes:Ouvrir la note quotidienne": false,
       "templates:Insérer le modèle": false,
       "command-palette:Ouvrir la palette de commandes": false,
-      "templater-obsidian:Templater": false,
       "canvas:Créer une nouvelle toile": false,
       "zk-prefixer:Créer une nouvelle note unique": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e22e6093ab2a564f",
+  "active": "07b0a11329b2e326",
   "lastOpenFiles": [
+    "Templates/Algorithmique Template.md",
+    "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
+    "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
+    "Algorithmique/11-09-2023 - Introduction.md",
+    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
+    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
+    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
+    "Machine Learning/03-10-2023 - Clustering.md",
+    "Machine Learning/ressource/clustering.pdf",
+    "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
+    "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
+    "Machine Learning/19-09-2023 - Arbre de décision.md",
+    "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
+    "Middleware/04-10-2023 - Java Messaging System.md",
+    "Middleware/04-10-2023 - Message Oriented Middleware.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/27-09-2023 - Distribution objet RMI.md",
+    "Software Security/02-10-2023 - Memory Corruption.md",
+    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
+    "Software Security/13-11-2023 - Contrôle d'accès.md",
+    "Software Security/16-10-2023 - Race Conditions.md",
+    "Software Security/18-09-2023 - Cross Site Scripting.md",
+    "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
+    "Software Security/23-10-2023 - Cryptographie.md",
+    "Software Security/25-09-2023 - Cross-site request forgery.md",
     "Software Security/ressource/Pasted image 20231120090421.png",
     "Software Security/ressource/Pasted image 20231120090416.png",
     "Software Security/ressource/Pasted image 20231120090410.png",
@@ -198,41 +207,14 @@
     "Software Security/ressource/Pasted image 20231120090326.png",
     "Software Security/ressource/Pasted image 20231120090317.png",
     "Software Security/ressource/Pasted image 20231120090310.png",
-    "Software Security/ressource/Pasted image 20231120090258.png",
     "Software Security/ressource/04-SDLC-StaticAnalysis.pdf",
-    "Software Security/20-11-2023 - Cycle de développement sécurisé.md",
-    "Software Security/13-11-2023 - Contrôle d'accès.md",
     "Software Security/ressource/03-ArchiControleAccesv2.pdf",
     "Software Security/ressource/03-ArchiCryptoControleAccesv2-Crypto.pdf",
-    "Software Security/23-10-2023 - Cryptographie.md",
-    "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
-    "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
-    "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Middleware/27-09-2023 - Distribution objet RMI.md",
-    "Software Security/16-10-2023 - Race Conditions.md",
     "Software Security/ressource/02-Vulns-RaceConditions.pdf",
     "Software Security/ressource/02-Vulns-MemCorruption-BufferOverflows.pdf",
-    "Software Security/02-10-2023 - Memory Corruption.md",
-    "Machine Learning/03-10-2023 - Clustering.md",
-    "Rentrée.md",
-    "Templates/Software Security Template.md",
-    "Templates/Middleware Template.md",
-    "Templates/Machine Learning Template.md",
-    "Templates/Gestion Comptable & financière Template.md",
-    "Templates/Conception Logicielle Template.md",
-    "Templates/Algorithmique Template.md",
-    "Software Security/25-09-2023 - Cross-site request forgery.md",
-    "Software Security/18-09-2023 - Cross Site Scripting.md",
-    "Software Security/11-09-2023 - Introduction et SQL Injection.md",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Middleware/04-10-2023 - Message Oriented Middleware.md",
-    "Middleware/04-10-2023 - Java Messaging System.md",
     "grep",
     "Gestion Comptable & financière/ressource/Cours Ch 2 compte de résultat sept 23 version ETUDIANT.pdf",
     "CS-semester 7/CS-S7-publish/docs/Algorithmique",
-    "CS-semester 7/CS-S7-publish/docs",
-    "CS-semester 7/CS-S7-publish"
+    "CS-semester 7/CS-S7-publish/docs"
   ]
 }

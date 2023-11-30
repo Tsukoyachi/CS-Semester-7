@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md",
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Machine Learning/03-10-2023 - Clustering.md"
+                "file": "Middleware/13-09-2023 - Intro Java RMI.md"
               }
             }
           },
@@ -170,6 +170,11 @@
   },
   "active": "07b0a11329b2e326",
   "lastOpenFiles": [
+    "Middleware/27-09-2023 - Distribution objet RMI.md",
+    "Middleware/20-09-2023 - More in depth study of RMI.md",
+    "Middleware/20-09-2023 - Advanced feature of RMI.md",
+    "Middleware/13-09-2023 - Intro Java RMI.md",
+    "Machine Learning/03-10-2023 - Clustering.md",
     "Templates/Algorithmique Template.md",
     "Algorithmique/25-09-2023 - Calculabilité et Complexité.md",
     "Algorithmique/18-09-2023 - Calculabilité et complexité.md",
@@ -177,7 +182,6 @@
     "Gestion Comptable & financière/27-09-2023 - La loi des 20-80.md",
     "Gestion Comptable & financière/20-09-2023 - Bilan financiers et analyse fonctionnelle.md",
     "Gestion Comptable & financière/13-09-2023 - Introduction.md",
-    "Machine Learning/03-10-2023 - Clustering.md",
     "Machine Learning/ressource/clustering.pdf",
     "Machine Learning/10-10-2023 - Régression linéaire et logistique.md",
     "Machine Learning/12-09-2023 - Introduction to Machine Learning.md",
@@ -185,10 +189,6 @@
     "Machine Learning/26-09-2023 - Dimension reduction PCA, tSNE.md",
     "Middleware/04-10-2023 - Java Messaging System.md",
     "Middleware/04-10-2023 - Message Oriented Middleware.md",
-    "Middleware/13-09-2023 - Intro Java RMI.md",
-    "Middleware/20-09-2023 - Advanced feature of RMI.md",
-    "Middleware/20-09-2023 - More in depth study of RMI.md",
-    "Middleware/27-09-2023 - Distribution objet RMI.md",
     "Software Security/02-10-2023 - Memory Corruption.md",
     "Software Security/11-09-2023 - Introduction et SQL Injection.md",
     "Software Security/13-11-2023 - Contrôle d'accès.md",
